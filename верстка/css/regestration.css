@@ -1,0 +1,326 @@
+﻿/*Регистрационная форма*/
+#one_col{
+margin-top:-20px;
+}
+#one_col form{
+margin-top:25px
+}
+
+#one_col textarea{
+border:1px solid #d8d8d8;
+font-size:14px;
+height:70px;
+width:430px;
+}
+.#one_col div{
+border:1px solid red;
+}
+.one_col_title{
+font-size:18px;
+text-indent:30px;
+margin:0px 130px 25px 30px;
+}
+.registration_title{
+font-size:14px;
+color:#29b243;
+}
+.one_col_input_long{
+width:430px;
+}
+.registration_title:hover{
+text-decoration:none;
+}
+.registration_row{
+margin-top:18px;
+}
+.comments_normal{
+font-size:12px;
+color:#70747a;
+}
+.registration_row_left{
+float:left;
+text-align:right;
+width:210px;
+font-size:14px;
+height:17px;
+padding-top:3px;
+margin-right:10px;
+}
+.registration_row_right {
+margin-left:210px;
+position:relative;
+}
+
+.registration_row_right span{
+position:absolute;
+left:10px;
+top:-15px;
+}
+.comments_small{
+font-size:11px;
+color:#70747a;
+}
+.scope {
+font-size:14px;
+line-height:20px;
+}
+.scope input[type=radio]{
+margin:0px 40px 0px 10px;
+}
+.user_freelance{
+margin-top:20px;
+color:#70747a;
+}
+.user_freelance input{
+margin-top:2px;
+}
+.user_freelance_title{
+font-size:14px;
+text-indent:30px;
+float:left;
+margin-right:15px;
+height:18px;
+}
+.user_freelance p{
+text-indent:25px;
+padding-top:10px;
+margin-bottom:35px;
+}
+.user_freelance_select_categories{
+position:relative;
+padding:0px 7px;
+font-size:14px;
+cursor:pointer;
+}
+.user_freelance_select_categories_left{
+position:absolute;
+top:0px;
+left:0px;
+width:7px;
+height:22px;
+background:url(../img/freelance_select_categories_left.png) no-repeat;
+}
+.user_freelance_select_categories_right{
+position:absolute;
+top:0px;
+right:0px;
+width:7px;
+height:22px;
+background:url(../img/freelance_select_categories_right.png) no-repeat;
+}
+.user_freelance_select_categories_center{
+position:relative;
+padding:3px 10px;
+background:url(../img/freelance_select_categories_center.png) repeat-x;
+top:3px;
+}
+.modal_freelance:active .user_freelance_select_categories_left{
+position:absolute;
+top:0px;
+left:0px;
+width:7px;
+height:22px;
+background:url(../img/freelance_select_categories_left_active.png) no-repeat;
+}
+.modal_freelance:active .user_freelance_select_categories_right{
+position:absolute;
+top:0px;
+right:0px;
+width:7px;
+height:22px;
+background:url(../img/freelance_select_categories_right_active.png) no-repeat;
+}
+.modal_freelance:active .user_freelance_select_categories_center{
+position:relative;
+padding:3px 10px;
+background:url(../img/freelance_select_categories_center_active.png) repeat-x;
+top:3px;
+}
+.add_information{
+margin-top:15px;
+border-top:1px solid #d8d8d8;
+border-bottom:1px solid #d8d8d8;
+padding:6px 45px 20px 0px;
+}
+.add_information .one_col_title{
+text-indent:15px;
+}
+.add_information p{
+margin-top:20px;
+}
+.add_information_close{
+float:right;
+font-size:12px;
+text-decoration:underline;
+cursor:pointer;
+}
+.add_information  input{
+width:430px;
+vertical-align:baseline;
+}
+.green_left_button{
+width:15px;
+height:34px;
+position:absolute;
+background:url(../img/green_left_bg.png) no-repeat top;
+left:0px;
+top:0px;
+}
+.green_right_button{
+width:15px;
+height:34px;
+position:absolute;
+background:url(../img/green_right_bg.png) no-repeat top;
+right:0px;
+top:0px;
+}
+.green_center_button{
+background:url(../img/green_center_bg.png);
+background-repeat:repeat-x;
+padding:9px 12px 9px 12px;
+}
+.green_button{
+position:relative;
+padding:9px 12px 9px 12px;
+cursor:pointer;
+}
+.green_button{
+font-size:14px;
+text-decoration:none;
+color:#56595c;
+}
+.regestration_submit{
+padding:25px 20px 30px 20px;
+margin-bottom:100px;
+}
+/*Категории фрилансер*/
+.freelance_categories_modal{
+width:790px;
+font-size:14px;
+position:absolute;
+top:0px;
+margin-top:70px;
+margin-left:115px;
+display:none;
+z-index:9999;
+}
+.freelance_categories_modal_close{
+position:absolute;
+right:13px;
+top:11px;
+text-decoration:none;
+color:#fff;
+font-weight:900;
+font-size:18px;
+cursor:pointer;
+}
+.categories_modal_title{
+text-indent:5px;
+}
+.categories_modal_row{
+padding:3px 0px;
+}
+.freelance_categories_modal span{
+font-size:12px;
+}
+b{
+font-weight:bold;
+}
+.categories_modal_row input{
+margin-top:-2px;
+vertical-align:middle;
+}
+.categories_modal_row b{
+margin-left:4px;
+margin-right:3px;
+}
+.modal_row_unit{
+margin-left:13px;
+margin-right:4px;
+}
+.categories_modal_block{
+padding:30px 0px 20px 0px;
+}
+.categories_modal_choice{
+font-size:12px;
+margin-top:14px;
+margin-bottom:25px;
+}
+.categories_modal_choice a{
+color:#40b754;
+display:inline;
+margin-left:4px;
+}
+.categories_modal_mailto{
+color:#70747a;
+}
+.ready_left_button{
+padding:16px 5px;
+position:absolute;
+background:url(../img/ready_left.png) no-repeat top;
+left:0px;
+top:0px;
+}
+.ready_right_button{
+padding:16px 5px;
+position:absolute;
+background:url(../img/ready_right.png) no-repeat top;
+right:0px;
+top:0px;
+}
+.freelance_categories_modal .ready_center_button{
+font-size:14px;
+}
+.ready_center_button{
+background:url(../img/ready_center.png);
+background-repeat:repeat-x;
+padding:8px 14px;
+position:relative;
+top:0px;
+}
+.ready_button{
+position:relative;
+cursor:pointer;
+text-decoration:none;
+color:#000;
+padding:8px 7px;
+}
+.ready_button:active .ready_left_button{
+background:url(../img/ready_left_active.png) no-repeat top;
+}
+.ready_button:active .ready_right_button{
+background:url(../img/ready_right_active.png) no-repeat top;
+}
+.ready_button:active .ready_center_button{
+background:url(../img/ready_center_active.png) repeat-x ;
+}
+.categories_modal_bg{
+height:13px;
+background:url(../img/categories_modal_bg.png) no-repeat;
+padding:20px 35px 0px 30px;
+}
+.categories_modal_content{
+padding:0px 28px 100px 28px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+background:#f9faf8;
+}
+/*Стили для input radio*/
+.r_button {
+   display:none;
+}
+
+.r_button + label {
+        background: url("../img/freelance_radio.png") no-repeat right top;
+        cursor: pointer;
+        padding-right: 31px;
+		clear:both;
+}
+
+.r_button:checked + label {
+        background: url("../img/freelance_radio.png") no-repeat right bottom;
+}

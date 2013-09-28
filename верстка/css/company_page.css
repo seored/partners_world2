@@ -1,0 +1,553 @@
+﻿.company_page_info{
+padding:5px 35px;
+}
+.company_page_info_left{
+float:left;
+position:relative;
+z-index:1;
+}
+.company_logo{
+background:#d6e4b4;
+width:390px;
+text-align:center;
+height:175px;
+padding-top:2px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari, Chrome */
+  -khtml-border-radius: 15px; /* KHTML */
+  border-radius: 15px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.company_logo_img{
+margin:0px 0px 7px  0px;
+background:#fff;
+margin:0px auto;
+width:384px;
+height:140px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari, Chrome */
+  -khtml-border-radius: 15px; /* KHTML */
+  border-radius: 15px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.company_logo .page_photo_button_center{
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	top:8px;
+	margin:0px auto;
+	padding:5px 0px 5px 0px;
+	width:188px;
+	display:block;
+	text-align:center;
+	background:url(../img/page_photo_add.png) no-repeat;
+}
+.company_page_nav_overflow{
+overflow:hidden;
+margin-top:10px;
+border:2px solid #d6e4b4;
+width:386px;
+height:120px;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.company_page_nav{
+width:430px;
+height:125px;
+position:relative;
+}
+.company_page_nav_unit{
+float:left;
+width:70px;
+margin:10px 5px 0px 2px;
+text-align:center;
+height:100px;
+}
+.company_page_nav_unit a{
+text-decoration:none;
+color:#70747a;
+position:relative;
+top:5px;
+}
+.company_page_nav_unit_img{
+cursor:pointer;
+margin:0px auto;
+width:46px;
+height:46px;
+border:2px solid #81b43a;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.company_page_nav_unit:hover div{
+border:2px solid #e40001;
+}
+.company_page_nav_unit:hover a{
+color:#e40001;
+}
+.company_page_nav_bottom{
+position:absolute;
+bottom:3px;
+width:386px;
+text-align:center;
+}
+.company_page_nav_bottom ul li{
+display:inline;
+}
+.company_page_nav_bottom ul li span{
+display:inline-block;
+text-indent:999px;
+padding:7px;
+background:url(../img/company_page_nav.png) no-repeat top;
+cursor:pointer;
+}
+.company_page_nav_bottom ul li span.active{
+background:url(../img/company_page_nav.png) no-repeat bottom;
+}
+.cont_tab1{
+display:none;
+}
+.cont_tab2{
+display:none;
+}
+.cont_tab3{
+display:none;
+}
+.cont_tab4{
+display:none;
+text-align:center;
+}
+.content_tabs div.active {
+    display:block;
+    width:100%;
+}
+.company_page_info_right{
+float:right;
+width:560px;
+overflow:hidden;
+}
+.company_page_info_title{
+font-size:18px;
+font-weight:bold;
+color:#fff;
+background:#add353;
+position:relative;
+left:-40px;
+width:545px;
+padding:3px 0px 5px 90px;
+
+}
+.company_page_info_title_left_bg{
+position:absolute;
+width:30px;
+height:22px;
+background:#add353;
+right:0px;
+top:0px;
+z-index:-10;
+}
+.company_page_info_edit_left_bg{
+position:absolute;
+width:30px;
+height:22px;
+background:#ececec;
+right:0px;
+top:155px;
+z-index:-1;
+}
+.company_info_contact{
+padding:20px 0px 0px 25px;
+line-height:20px;
+position:relative;
+}
+.company_phone{
+padding:10px;
+width:172px;
+height:87px;
+background:url(../img/company_page_phone.jpg) no-repeat center;
+position:absolute;
+top:5px;
+right:0px;
+color:#fff;
+}
+.company_phone p{
+font-size:18px;
+}
+.company_phone span{
+display:block;
+}
+.company_info_contact .show_detail_info{
+text-decoration:none;
+line-height:45px;
+color:#70747a;
+}
+p.company_page_edit{
+background:#ececec;
+position:relative;
+left:-30px;
+width:590px;
+text-indent:80px;
+height:17px;
+margin-top:3px;
+padding-top:2px;
+}
+.company_page_edit a{
+color:#000;
+text-decoration:none;
+padding:0px 5px;
+}
+a.company_page_news_add{
+margin-top:10px;
+float:right;
+display:block;
+width:545px;
+text-align:center;
+padding:7px 0px;
+border:2px solid #89b228;
+font-size:14px;
+color:#000;
+text-decoration:none;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.company_page_news_bg{
+margin-top:5px;
+width:527px;
+height:57px;
+overflow:hidden;
+background:#f9faf8;
+border:1px solid #d8d8d8;
+float:right;
+padding:3px 10px;
+line-height:14px;
+}
+.news_lenta_title{
+color:#ff0000;
+}
+.company_page_news_bg a{
+color:#29b243;
+}
+.company_page_news_bg span{
+color:#ff0000;
+}
+.company_page_news_lenta{
+width:527px;
+float:right;
+}
+.company_page_news_lenta_action{
+position:relative;
+top:3px;
+}
+.news_lenta_action_left{
+float:left;
+color:#70747a;
+text-decoration:none;
+margin:0px 0px 0px -5px;
+}
+.news_lenta_action_right{
+float:right;
+color:#5bb023;
+text-decoration:none;
+margin:0px 15px 0px 0px;
+}
+/*Основной блок*/
+.company_page_content_wrap_close{
+position:absolute;
+right:10px;
+top:5px;
+}
+.company_page_content{
+padding:0px 35px;
+margin-top:5px 0px;
+position:relative;
+}
+.company_page_content_wrap{
+border-top:4px solid #89b228;
+min-height:100px;
+}
+.content_setting  .wrap_cont_tab2 p{
+font-weight: bold;
+margin-top: 15px;
+}
+.content_setting  .wrap_cont_tab3 p{
+font-weight: bold;
+margin-top: 15px;
+}
+.content_setting .wrap_cont_tab3 p {
+font-weight: bold;
+color: #89b228;
+}
+.content_setting .wrap_cont_tab3 p.edit_mail {
+font-weight: normal;
+color: #70747a;
+text-indent: 15px;
+margin-top: 5px;
+}
+.company_page_content_leftbg{
+padding:3px 0px 0px 0px;
+width:30px;
+height:102px;
+position:absolute;
+left:5px;
+top:0px;
+background:url(../img/catalog_bg.png) no-repeat;
+text-align:center;
+color:#6c0609;
+}
+.company_page_content_leftbg p{
+line-height:14px;
+font-size:14px;
+}
+.wrap_title{
+position:relative;
+font-size:14px;
+padding:10px 0px 7px 30px;
+background:#fdfdfc;
+border-bottom:1px solid #f2cacc;
+font-weight:bold;
+}
+.product_town_nav{
+margin:5px 0px 5px 15px;
+}
+.product_town_nav li{
+list-style:none;
+display:inline;
+margin:0px 10px 0px 0px;
+}
+.product_town_nav li span{
+color:#8b8e93;
+cursor:pointer;
+text-decoration:underline;
+}
+.product_town_nav li span:hover{
+text-decoration:none;
+}
+.product_town_nav li span.active{
+color:#000;
+}
+/*Каталог товар*/
+.wrap_product_row{
+margin:10px 0px 0px 0px;
+width:980px;
+}
+.wrap_product_row_unit{
+width:220px;
+height:133px;
+border:1px solid #d9d9d9;
+float:left;
+margin:0px 8px 0px 0px;
+padding:10px 5px;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.product_row_unit_left{
+float:left;
+margin:0px 5px 0px 0px;
+}
+.product_row_unit_img{
+overflow:hidden;
+cursor:pointer;
+}
+.product_unit_name{
+color:#5bb023;
+font-weight:bold;
+margin-bottom:30px;
+}
+.product_unit_sum{
+font-size:12px;
+margin:0px 5px 0px 0px;
+}
+.product_unit_sum_bold{
+font-size:14px;
+font-weight:bold;
+}
+.product_unit_volume{
+font-size:11px;
+}
+.product_row_unit_action{
+margin:0px 0px 0px 20px;
+}
+.product_row_unit_action a{
+text-indent:9999px;
+margin:3px 10px 0px 0px;
+display:block;
+float:left;
+width:18px;
+height:18px;
+}
+.product_unit_close{
+background:url(../img/product_close.png) no-repeat;
+}
+.product_unit_edit{
+background:url(../img/product_edit.png) no-repeat;
+}
+.unit_add_product{
+background:#ececec;
+cursor:pointer;
+opacity:0.5;
+}
+.unit_add_product:hover{
+opacity:1;
+}
+.unit_add_product_title{
+font-size:18px;
+text-align:center;
+padding:8px 0px 0px 0px;
+background: url(../img/product_add_unit.png) no-repeat;
+width:194px;
+height:29px;
+margin:47px auto 0px auto;
+color:#70747a;
+}
+.unit_add_product_more{
+border:1px solid #ab0101;
+background:#e09ea0;
+cursor:pointer;
+opacity:0.6;
+}
+.unit_add_product_more:hover{
+opacity:1;
+}
+.unit_add_product_more_title{
+font-size:18px;
+text-align:center;
+padding:2px 0px 0px 0px;
+background: url(../img/product_add_unit_more.png) no-repeat;
+width:194px;
+height:43px;
+margin:47px auto 0px auto;
+color:#6c0609;
+}
+.wrap_product_add_title{
+color:#89b228;
+margin:5px 15px;
+}
+.wrap_product_add_title a{
+float:right;
+color:#29b243;
+}
+.product_add_new_left{
+width:165px;
+text-align:right;
+float:left;
+}
+.company_page_content .friends_row_unit{
+margin:0px 19px;
+}
+.company_page_content .content_friends_row{
+width:980px;
+}
+/*Статистика*/
+.wrap_settings,
+.wrap_stat{
+padding:20px 0px 20px 15px;
+}
+.wrap_stat_pay{
+float:left;
+width:410px;
+margin:0px 35px 0px 0px;
+}
+.wrap_stat table{
+border-collapse: collapse;
+border-spacing: 0px 0px;
+}
+.wrap_stat table td{
+border:1px solid #d1d1d1;
+padding:3px 0px;
+text-align:center;
+}
+.wrap_stat table caption{
+color:#89b228;
+text-align:left;
+text-indent:15px;
+font-weight:bold;
+margin:0px 0px 10px 0px;
+}
+.wrap_stat table tr.wrap_stat_pay_title td{
+font-weight:bold;
+background:#ececec;
+padding:7px 10px;
+}
+.wrap_stat table tr.wrap_stat_rate_title td{
+font-weight:bold;
+background:#d8eca8;
+}
+.wrap_stat table tr.wrap_stat_rate_title td.wrap_stat_rate_services{
+width:390px;
+text-align:left;
+padding:7px 10px 7px 10px;
+}
+.wrap_stat_rate_date{
+width:100px;
+}
+/*Настройки*/
+.wrap_rate{
+padding:0px 15px;
+}
+.wrap_cont_tab1{
+display:none;
+}
+.wrap_cont_tab2{
+display:none;
+}
+.wrap_cont_tab3{
+display:none;
+}
+.wrap_cont_tab4 p{
+margin-top:15px;
+}
+.wrap_content_nav_tabs{
+margin:10px 0px 0px 0px;
+}
+.wrap_content_nav_tabs span{
+font-size:12px;
+color:#70747a;
+text-decoration:underline;
+cursor:pointer;
+}
+.wrap_content_nav_tabs span:hover{
+text-decoration:none;
+}
+.wrap_content_nav_tabs span.active{
+color:#29b243;
+text-decoration:none;
+}
+.wrap_content_nav_tabs li{
+display:inline;
+list-style:none;
+margin-left:23px;
+}
+.company_page_select_styled{
+   width: 545px;
+   height: 20px;
+   margin:10px 0px 0px 5px;
+   overflow: hidden;
+   background: url(../img/message_select_bg.png) no-repeat 530px;
+   border: 1px solid #ccc;
+}
+.company_page_select_styled select {
+   background: transparent;
+   width: 560px;
+   font-size: 12px;
+   border: 0;
+   height: 20px;
+   -webkit-appearance: none;
+   text-indent:5px;
+   }

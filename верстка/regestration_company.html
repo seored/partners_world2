@@ -1,0 +1,231 @@
+﻿<!doctype html>
+<html>
+<head>
+ <title>Главная</title>
+ <meta charset="utf-8">
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="script/script.js"></script>
+ <link type="text/css" rel="stylesheet" href="css/style.css">
+ <link type="text/css" rel="stylesheet" href="css/regestration.css"> 
+</head>
+ <body>
+<div id="wrap">
+<div id="main" class="clearfix">
+	<div id="header">
+		<div id="nav_top">
+			<span>Добро пожаловать на наш сайт!</span> <span>Выберите язык:</span>
+			<ul class="language">
+				<li><a href="#"><img src="img/russia.jpg" alt="Русский язык" title="Русский язык"></a></li>
+				<li><a href="#"><img src="img/usa.jpg" alt="Английский язык" title="Русский язык"></a></li>
+				<li><a href="#"><img src="img/china.jpg" alt="Китайский язык" title="Русский язык"></a></li>
+			</ul>
+			<ul class="nav_top">
+				<li><a href="about.html">О проекте</a></li>
+				<li><a href="pay.html">Реклама на проекте</a></li>
+				<li><a href="#dialog" name="modal">Контакты</a></li>
+				<li><a href="#">Форум</a></li>
+			</ul>
+		</div>
+		<div class="clear">
+		</div>
+		<div id="basic_header">
+			<div id="logo">
+				<a href="index.html" title="Partners of the world">
+					<img src="img/logo.png">
+					<h5><span class="one">Социальная</span></br><span class="two">бизнес-сеть</span></h5>
+				</a>
+			</div>
+			<div id="header_banner">
+				<img src="img/header_banner.png">
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+
+<div id="content">
+	<div id="one_col">
+		<span class="one_col_title">Регистрация компании</span>
+		<a href="#" class="registration_title">Регистрация личного кабинета</a></br>
+		<form name="registration_user" method="post">
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Название компании:</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" class="one_col_input_long" ><span class="comments_small">Это название будет являться основным, и будет записано в реестр компаний сайта</span>
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Юридическое название:</span>
+				</div>
+				<div class="registration_row_right">
+					<input class="one_col_input_long" type="text" ><span class="comments_small">Юридическое название, будет отображено в описании Вашей компании</span>
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Страна:</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" >
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Город:</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" >
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Никнейм:</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" ><span class="comments_small">Вы можете ввести удобный адрес своей страницы для поисковых сайтов (Яндекс, Google)</span>
+				</div>
+				<p class="comments_normal">Если Вы уже зарегестрировали личный кабинет, то можете использовать тот же логин и пароль для регистрации компании!
+				Для этого поставте отметку “У меня есть личный кабинет” и введите логин и пароль от личного кабинета. Если Вы хотите зарегистрировать компанию на другой
+				логин и пароль, то уберите отметку.</p>
+			</div>
+			<div class="regestration_have_cabinet"><!--Блок заполняется если у пользователя есть личный кабинет по умолчанию input отключены-->
+				<div class="registration_row">
+					<input type="radio" class="regestration_have_cabinet_activator green_red_button" id="regestration_have_cabinet_activator">
+					<label for="regestration_have_cabinet_activator">У меня есть личный кабинет</label>
+					<div class="clear"></div>
+				</div>
+				<div class="registration_row">
+					<div class="registration_row_left">
+						<span>Email(логин):</span>
+					</div>
+					<div class="registration_row_right">
+						<input type="text" disabled>
+					</div>
+				</div>
+				<div class="registration_row">
+					<div class="registration_row_left">
+						<span>Пароль:</span>
+					</div>
+					<div class="registration_row_right">
+						<input type="text" disabled>
+					</div>
+				</div>
+				<div class="registration_row">
+					<div class="registration_row_left">
+						<span>Подтверждение пароля:</span>
+					</div>
+					<div class="registration_row_right">
+						<input type="text" disabled>
+					</div>
+				</div>
+			</div>
+			<div class="registration_row scope">
+				<p>Выберите сферу деятельности</p>
+				<input name="have_cabinet_button" type="radio" class="green_red_button" id="registration_scope1"/>
+				<label for="registration_scope1">Сфера торговли</label>
+				<input name="have_cabinet_button" type="radio" class="green_red_button" id="registration_scope2"/>
+				<label for="registration_scope2">Сфера услуг</label>
+			</div>
+		<div class="add_information">
+				<span class="one_col_title">Дополнительная информация</span>
+				<span class="registration_title add_information_close">Скрыть дополнительные сведения</span>
+				<p class="comments_small">Дополнительные сведения будут отображены в описании вашей компании, Вы так же можете заполнить их после регистрации при редактировании страницы компании.</p>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Телефон :</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" >
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Адрес :</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="textarea" >
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Веб-сайт :</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" >
+				</div>
+			</div>
+			<div class="registration_row">
+				<div class="registration_row_left">
+					<span>Skype :</span>
+				</div>
+				<div class="registration_row_right">
+					<input type="text" >
+				</div>
+			</div>
+		 </div>
+		 <div class="regestration_submit">
+			<a href="#" class="green_button"><span class="green_left_button"></span><span class="green_center_button">Зарегестрироваться</span><span class="green_right_button"></span></a>
+		 </div>
+		</form>
+    </div>
+</div>
+<div id="contacts">
+	<div id="dialog" class="window">
+	    <a href="#" class="close"/>x</a>
+		<b>Размещение прайс-листов в "Пульс цен Екатеринбург":</b>
+		<p>
+		по телефону: (343) 203-12-06, 203-09-30, 203-09-38, 379-29-89</br>
+		по факсу: (343) 376-55-06</br>
+		по электронной почте: pulse@apress.ru</br>
+		Адрес офиса: г.Екатеринбург, ул.Хохрякова, 55.</br>
+		</p>
+		<b>Размещение баннерной и модульной рекламы в интернет, печатной и CD-версии "Пульс цен":</b>
+		<p>
+			Ирина Дудина - специалист по приему рекламы 
+		Тел.: (343) 376-40-30, 212-64-93. E-mail: rekpuls@apress.ru
+		</p>
+		<b>
+		Сообщить об ошибке, задать вопросы по работе на торговой площадке Pulscen.ru:
+		</b>
+		<p>
+		по телефону: (343) 379-29-89; 8-800-100-9191 (звонок на территории РФ бесплатный)
+		по электронной почте: support@pulscen.ru
+		</p>
+		<b class="overall">
+		Общие вопросы, информация по работе сайта:
+		</b>
+		<p>
+		по телефону: (343) 379-29-89; 8-800-100-9191 (звонок на территории РФ бесплатный)
+		по электронной почте: support@pulscen.ru
+		</p>
+	</div>
+</div>
+</div>
+</div>
+<div id="main_footer">
+	<ul id="footer_nav">
+		<li><a href="#">О проекте</a></li>
+		<li><a href="#">Реклама на проекте</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Сообщить об ошибках</a></li>
+	</ul>
+	<div id="footer_content">
+		<div class="footer_content_col1"></div>
+		<div class="footer_content_col2">
+			<span>Найдите партнера:</span>
+			<ul>
+				<li><a href="#">КИТАЙ</a></li>
+				<li><a href="#">ЯПОНИЯ</a></li>
+				<li><a href="#">КОРЕЯ</a></li>
+			</ul>
+			<p>Авторские права © 2013 Partners of the worid.  Все права защищены.</p>
+		</div>
+		<div class="footer_content_col3"></div>
+		</div>
+</div>
+<div id="mask"></div>
+ </body>
+</html>

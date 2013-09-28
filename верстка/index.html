@@ -1,0 +1,612 @@
+﻿<!doctype html>
+<html>
+<head>
+ <title>Главная</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=1024">
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="script/script.js"></script>
+ <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+ <body>
+<div id="wrap">
+<div id="main" class="clearfix">
+	<div id="header">
+		<div id="nav_top">
+			<span>Добро пожаловать на наш сайт!</span> <span>Выберите язык:</span>
+			<ul class="language">
+				<li><a href="#"><img src="img/russia.jpg" alt="Русский язык" title="Русский язык"></a></li>
+				<li><a href="#"><img src="img/usa.jpg" alt="Английский язык" title="Русский язык"></a></li>
+				<li><a href="#"><img src="img/china.jpg" alt="Китайский язык" title="Русский язык"></a></li>
+			</ul>
+			<ul class="nav_top">
+				<li><a href="about.html">О проекте</a></li>
+				<li><a href="pay.html">Реклама на проекте</a></li>
+				<li><a href="#dialog" name="modal">Контакты</a></li>
+				<li><a href="#">Форум</a></li>
+			</ul>
+		</div>
+		<div class="clear">
+		</div>
+		<div id="basic_header">
+			<div id="logo">
+				<a href="index.html" title="Partners of the world">
+					<img src="img/logo.png">
+					<h5><span class="one">Социальная</span></br><span class="two">бизнес-сеть</span></h5>
+				</a>
+			</div>
+			<div id="header_banner">
+				<img src="img/header_banner.png">
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+	<div id="nav">
+		<ul>
+			<li class="active"><a href="#">Товары</a></li>
+			<li><a href="#">Услуги</a></li>
+			<li><a href="#">Спрос</a></li>
+			<li><a href="#">Компании</a></li>
+			<li><a href="#">Фриланс</a></li>
+		</ul>
+		<div id="search">
+			<form>
+				<input type="text" class="search_text">
+				<div class="search_select">
+					<select class="search_country">
+						<option disabled>Выберите страну</option>
+					</select>
+					<select class="search_town">
+						<option disabled>Выберите город</option>
+					</select>
+					<select class="search_category">
+						<option disabled>Выберите категорию</option>
+					</select>
+				</div>
+				<input type="submit" value="Искать" class="button_search">
+			</form>
+		</div>
+		<a href="#" class="advased_search">Расширенный поиск</a>
+		<div class="clear"></div>
+	</div>
+	<div id="cabinet">
+		<div id="enter_cabinet">
+			<div class="enter_cabinet_col1">
+				<a href="#"><img src="img/enter_cabinet.jpg"></a>
+				<p>Личный кабинет</p>
+				<a href="#" class="href_enter">Войти</a>
+				<a href="regestration.html" class="href_regestration">Зарегестрироваться</a>
+				<div class="clear"></div>
+			</div>
+			<div class="enter_cabinet_col2">
+				<p class="enter_cabinet_col2_grey">найти партнера</p>
+				<p class="enter_cabinet_col2_red">без посредников</p>
+			</div>
+			<div class="enter_cabinet_col3">
+				<a href="#" class="cabinet_country_scroll country_scroll_top"><=</a>
+				<a href="#" class="cabinet_country_scroll country_scroll_bottom">=></a>
+				<div class="cabinet_country_overflow">
+					<div class="country_overflow_hidden">
+						<div class="country_unit">
+							<a href="#">
+								<img src="img/enter_china.jpg">
+								<p>Китай</p>
+							</a>
+						</div>
+						<div class="country_unit">
+							<a href="#">
+								<img src="img/enter_vietnam.jpg">
+								<p>Вьетнам</p>
+							</a>
+						</div>
+						<div class="country_unit">
+							<a href="#">
+								<img src="img/enter_korea.jpg">
+								<p>Корея</p>
+							</a>
+						</div>
+						<div class="country_unit">
+							<a href="#">
+								<img src="img/enter_japan.jpg">
+								<p>Япония</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+		<div class="partners">
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+	<div id="content">
+		<div id="sidebar">
+			<div id="stat">
+				<p>Всего на сайте на <span>15. 01. 2013</span></p>
+				<table>
+					<tr>
+						<td class="state_name"></td>
+						<td class="state_data">Всего</td>
+						<td class="state_data">За день</td>
+					</tr>
+					<tr>
+						<td class="state_name">Пользователей</td>
+						<td class="state_data">5384</td>
+						<td class="state_data">(+30)</td>
+					</tr>
+					<tr>
+						<td class="state_name">Компаний</td>
+						<td class="state_data">4000</td>
+						<td class="state_data">(+20)</td>
+					</tr>
+					<tr>
+						<td class="state_name">Товаров</td>
+						<td class="state_data">100910</td>
+						<td class="state_data">(+10000)</td>
+					</tr>
+					<tr>
+						<td class="state_name">Спрос</td>
+						<td class="state_data">50</td>
+						<td class="state_data">(+3)</td>
+					</tr>
+				</table>
+			</div>
+			<!-- Реклама -->
+			<div class="sidebar_banners">
+				<img src="img/banners.png" title="Реклама">
+			</div>
+			<div id="sidebar_block">
+				<p>Последние товары</p>
+				<ul>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">свежие яблоки</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">зимняя куртка</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">свежие яблоки</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">зимняя куртка</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">свежие яблоки</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">зимняя куртка</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+				</ul>
+			</div>
+			<div id="sidebar_block">
+				<p>Последние компании</p>
+				<ul>
+					<li><a href="#"><img src="img/company_name.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name2.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name2.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name2.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/company_name.jpg" alt="Китай">название компании</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">название компании</a></li>
+				</ul>
+			</div>
+			<div id="sidebar_block">
+				<p>Последний спрос</p>
+				<ul>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">свежие яблоки</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">зимняя куртка</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">свежие яблоки</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">зимняя куртка</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">свежие яблоки</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">зимняя куртка</a></li>
+					<li><a href="#"><img src="img/sidebar_china.jpg" alt="Китай">семена белой тыквы</a></li>
+				</ul>
+			</div>
+		</div>
+   <div class="right">
+		<div id="basic_content">
+			<div id="manufacturer">
+				<div class="manufacturer_title">
+					<p>Каталог производителей из более чем 50ти стран мира</p>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit grey">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="services">
+				<div class="services_title">
+					<p>Услуги</p>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+				<div class="content_line">
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+					<div class="basic_unit">
+						<a href="#">
+							<div class="unit green">
+								<img src="img/куртка.jpg" title="куртка">
+							</div>
+							<span>Одежда</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="content_next_page">
+				<span id="next_page_br">
+				<div class="next_page_pin pin_active"></div>
+				<div class="next_page_pin"></div>
+				</span>
+			</div>
+		</div>
+		<div id="showcase">
+			<span class="showcase_title">Витрина</span>
+			<div id="showcase_content">
+				<a href="#" class="showcase_scroll showcase_scroll_left"><=</a>
+				<div class="showcase_content_overflow">
+					<div class="showcase_content_hidden">
+						<div class="showcase_content_unit">
+							<a href="#">
+								<img src="img/showcase_content1.jpg" alt="свежие фрукты"><p>Свежие яблоки</p><span>1500 р/т</span>
+							</a>
+						</div>
+						<div class="showcase_content_unit">
+							<a href="#">
+								<img src="img/showcase_content1.jpg"><p>Свежие яблоки</p><span>1500 р/т</span>
+							</a>
+						</div>
+						<div class="showcase_content_unit">
+							<a href="#">
+								<img src="img/showcase_content1.jpg"><p>Свежие яблоки</p><span>1500 р/т</span>
+							</a>
+						</div>
+						<div class="showcase_content_unit">
+							<a href="#">
+								<img src="img/showcase_content1.jpg"><p>Свежие яблоки</p><span>1500 р/т</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="showcase_scroll showcase_scroll_right">=></a>
+			</div>
+			<div id="showcase_filters">
+				<div class="left"><span>Категория:</span><select class="filters_category"></select></div>
+				<div class="right"><span>Страна:</span><select class="filters_country"></select></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+		<ul id="follow_us">
+			<li class="follow_us"><a href="#"><img src="img/follow1.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow2.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow3.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow4.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow5.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow6.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow7.jpg"></a></li>
+			<li class="follow_us"><a href="#"><img src="img/follow8.jpg"></a></li>
+		</ul>
+		<p>Вы нас найдете по ключевым словам</p>
+		<p class="key_words">Сельское хозяйство, Свежий чеснок, цветочные горшки и плантаторов, одежда, обувь, кожа и текстиль, свадебные платья, футболки, компьютеры и комплектующие, строительство, недвижимость, бытовая электроника, бытовая техника, электротехническое оборудование, еда, напитки, мебель, подарки, медецина, все для дома и сада, инструменты, металлы, резина и плаастик, пластмасса, свет и освещение, упаковка, печать, сумки и чемоданы, офисные и школьные пренадлежности, спортивное оборудование, спорт и развлечения, игрушки, хобби, часы и ювелирные изделия, окружающая среда, механические детали, промышленное оборудование, машины, химические вещества, транспорт.</p>
+		<div id="money_card">
+			<span>Мы принимаем:</span>
+			<ul>
+			   <li><img src="img/footer_money.jpg"></li>
+			   <li><img src="img/footer_yandex.jpg"></li>
+			   <li><img src="img/footer_western.jpg"></li>
+			   <li><img src="img/footer_visa.jpg"></li>
+			   <li><img src="img/footer_sber.jpg"></li>
+			   <li><img src="img/footer_qiwi.jpg"></li>
+			   <li><img src="img/footer_rbk.jpg"></li>
+			   <li><img src="img/footer_svyz.jpg"></li>
+			   <li><img src="img/footer_evro.jpg"></li>
+			   <li><img src="img/footer_pochta.jpg"></li>
+			</ul>
+		</div>
+	</div>
+<div id="contacts">
+	<div id="dialog" class="window">
+	    <a href="#" class="close"/>x</a>
+		<b>Размещение прайс-листов в "Пульс цен Екатеринбург":</b>
+		<p>
+		по телефону: (343) 203-12-06, 203-09-30, 203-09-38, 379-29-89</br>
+		по факсу: (343) 376-55-06</br>
+		по электронной почте: pulse@apress.ru</br>
+		Адрес офиса: г.Екатеринбург, ул.Хохрякова, 55.</br>
+		</p>
+		<b>Размещение баннерной и модульной рекламы в интернет, печатной и CD-версии "Пульс цен":</b>
+		<p>
+		Ирина Дудина - специалист по приему рекламы 
+		Тел.: (343) 376-40-30, 212-64-93. E-mail: rekpuls@apress.ru
+		</p>
+		<b>
+		Сообщить об ошибке, задать вопросы по работе на торговой площадке Pulscen.ru:
+		</b>
+		<p>
+		по телефону: (343) 379-29-89; 8-800-100-9191 (звонок на территории РФ бесплатный)
+		по электронной почте: support@pulscen.ru
+		</p>
+		<b class="overall">
+		Общие вопросы, информация по работе сайта:
+		</b>
+		<p>
+		по телефону: (343) 379-29-89; 8-800-100-9191 (звонок на территории РФ бесплатный)
+		по электронной почте: support@pulscen.ru
+		</p>
+	</div>
+</div>
+</div>
+</div>
+	<div id="main_footer">
+		<ul id="footer_nav">
+			<li><a href="#">О проекте</a></li>
+			<li><a href="#">Реклама на проекте</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#">Сообщить об ошибках</a></li>
+		</ul>
+		<div id="footer_content">
+			<div class="footer_content_col1"></div>
+			<div class="footer_content_col2">
+				<span>Найдите партнера:</span>
+				<ul>
+					<li><a href="#">КИТАЙ</a></li>
+					<li><a href="#">ЯПОНИЯ</a></li>
+					<li><a href="#">КОРЕЯ</a></li>
+				</ul>
+				<p>Авторские права © 2013 Partners of the worid.  Все права защищены.</p>
+			</div>
+			<div class="footer_content_col3"></div>
+		</div>
+	</div>
+<div id="mask"></div>
+ </body>
+</html>

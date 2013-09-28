@@ -1,0 +1,24 @@
+﻿#two_col{
+width:710px;
+padding:10px 0px 10px 10px;
+}
+.breadcrumbs a{
+color:#95999d;
+}
+.breadcrumbs a:hover{
+text-decoration:none;
+}
+.one_col_title_h5{
+font-size:14px;
+margin-top:15px;
+}
+#two_col p{
+margin-top:15px;
+}
+#two_col p b{
+font-weight:800;
+}
+#two_col ul {
+list-style-type:decimal;
+padding-left:20px;
+}
