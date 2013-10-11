@@ -269,4 +269,30 @@ $(function(){
         }
     });
 })
-/*Каталог постраничная навигация*/
+/*Отзывы*/
+$(function(){
+	$(".content_reviews_row").change(function(){
+		$(this).css("background","#ecfcc7");
+	});
+})
+$(function(){
+	$(".reviwes_delete").click(function(){
+		$(this).parent().remove();
+	});
+})
+/*Страница компании > Настройки > Сотрудники > Выбор сотрудников*/
+$(function(){
+	$(".company_page_select_styled").click(function(){
+		$(".company_page_select_styled_open").slideToggle("slow");	
+		/*Клик вне элемента*/
+		$("body").click(function (event) {
+			if ($(event.target).closest(".company_page_settings_select_rel").length === 0) {
+				$(".company_page_select_styled_open").hide();
+			}
+		});
+	})
+})
+/*Добавление запятой,модальное окно фриланс,выбранные категории*/
+$(function(){
+	$(".comapny_page_settings_choice_user li a").slice(0, -1).after("<span>,</span>");
+});

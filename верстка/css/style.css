@@ -25,8 +25,13 @@ body > #wrap {
 height: auto;
 min-height: 100%;
 }
+#wrap{
+background:#fff;
+width:1020px;
+margin:0px auto;
+}
 #main {
-padding-bottom: 90px; /* отступ должен быть равен высоте футера */
+padding-bottom: 90px;
 }
 .clearfix:after {
 content: ".";
@@ -38,14 +43,12 @@ visibility: hidden;
 .clearfix {
 display: inline-block;
 }
-/* Hides from IE-mac \*/
 * html .clearfix {
 height: 1%;
 }
 .clearfix {
 display: block;
 }
-/* End hide from IE-mac */
 a:hover{
 text-decoration:none;
 }

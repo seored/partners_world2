@@ -598,15 +598,77 @@
 							</div>
 						</div>
 						<div class="wrap_cont_tab4">
-							<p>Вы можете настроить ограничения индивидуально для каждого сотрудника</p>
-							<p style="float:left;">Выберите одного или несколько сотрудников</p>
-							<div class="company_page_select_styled">
-								<select>
-									<option>Имя Фамилия</option>
-									<option>Имя Фамилия</option>
-									<option>Имя Фамилия</option>
-								</select>
-							</div>
+							<form>
+								<p>Вы можете настроить ограничения индивидуально для каждого сотрудника</p>
+								<p class="company_page_settings_select_users">Выберите одного или несколько сотрудников</p>
+									<div class="company_page_settings_select_rel">
+										<a href="#" class="company_page_select_styled">-</a>
+										<div class="company_page_select_styled_open">
+											<ul>
+												<li>
+													<label><input type="checkbox">Имя Фамилия</label>
+												</li>
+												<li>
+													<label><input type="checkbox">Имя Фамилия</label>
+												</li>
+												<li>
+													<label><input type="checkbox">Имя Фамилия</label>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="clear"></div>
+								<p>
+									<ul class="comapny_page_settings_choice_user">
+									Вы выбрали<span class="settings_how_users_choice">три</span>сотрудника:
+										<li>
+											<a href="#">Имя Фамилия</a>
+										</li>
+										<li>
+											<a href="#">Имя Фамилия</a>
+										</li>
+										<li>
+											<a href="#">Имя Фамилия</a>
+										</li>
+									</ul>
+								</p>
+								<p>
+								Выберите какие пункты меню будут доступны для просмотра и редактирования этим сотрудникам
+								</p>
+									<ul class="setting_general_radio">
+										<li>
+											<input id="what_user_edit_product" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_product" >Товары</label>
+										</li>
+										<li>
+											<input id="what_user_edit_demand" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_demand" >Спрос</label>
+										</li>
+										<li>
+											<input id="what_user_edit_worker" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_worker" >Сотрудники</label>
+										</li>
+										<li>
+											<input id="what_user_edit_geographi" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_geographi" >География</label>
+										</li>
+										<li>
+											<input id="what_user_edit_reviews" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_reviews" >Отзывы</label>
+										</li>
+										<li>
+											<input  id="what_user_edit_buyers" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_buyers" >Покупатели</label>
+										</li>
+										<li>
+											<input  id="what_user_edit_partners" type="checkbox" class="green_red_button_left">
+											<label for="what_user_edit_partners" >Партнеры</label>
+										</li>
+										<div class="content_setting_save">
+											<button type="submit">Сохранить</button>
+										</div>
+									</ul>
+							</form>
 						</div>
 					</div>
 				</div>

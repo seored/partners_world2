@@ -402,6 +402,7 @@ background:url(../img/product_edit.png) no-repeat;
 background:#ececec;
 cursor:pointer;
 opacity:0.5;
+text-align:center;
 }
 .unit_add_product:hover{
 opacity:1;
@@ -454,6 +455,57 @@ margin:0px 19px;
 .company_page_content .content_friends_row{
 width:980px;
 }
+/*Сервисы*/
+.unit_add_service_title_top_bg{
+display:block;
+width:194px;
+height:10px;
+background:url(../img/unit_add_service_title_top_bg.png) no-repeat top;
+}
+.unit_add_service_title_center_bg{
+background:url(../img/unit_add_service_title_center_bg.png) repeat-y;
+display:block;
+width:194px;
+min-height:20px;
+text-align:center;
+color:#313131;
+font-size:18px;
+}
+.unit_add_service_title_bottom_bg{
+display:block;
+width:194px;
+height:10px;
+background:url(../img/unit_add_service_title_bottom_bg.png) no-repeat top;
+}
+.unit_add_service_title{
+width:194px;
+display:-moz-inline-box;
+display:inline-block;
+vertical-align:middle;
+zoom:1;
+//display:inline;
+}
+.unit_add_service_vertical_align{
+ display:-moz-inline-box;
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    width:0px;
+    zoom:1;
+    //display:inline;
+}
+.unit_add_service{
+background:#ececec;
+cursor:pointer;
+opacity:0.5;
+text-align:center;
+}
+.unit_add_service_bg{
+background:#272727 url(../img/unit_add_service_bg.png) center center no-repeat;
+}
+.unit_add_service:hover{
+opacity:1;
+}
 /*Статистика*/
 .wrap_settings,
 .wrap_stat{
@@ -497,6 +549,10 @@ padding:7px 10px 7px 10px;
 .wrap_stat_rate_date{
 width:100px;
 }
+.wrap_stat table td.wrap_stat_rate_left_col{
+text-align:left;
+text-indent:10px;
+}
 /*Настройки*/
 .wrap_rate{
 padding:0px 15px;
@@ -508,6 +564,9 @@ display:none;
 display:none;
 }
 .wrap_cont_tab3{
+display:none;
+}
+.wrap_cont_tab4{
 display:none;
 }
 .wrap_cont_tab4 p{
@@ -537,10 +596,12 @@ margin-left:23px;
 .company_page_select_styled{
    width: 545px;
    height: 20px;
-   margin:10px 0px 0px 5px;
+   margin:10px 0px 0px 10px;
    overflow: hidden;
    background: url(../img/message_select_bg.png) no-repeat 530px;
    border: 1px solid #ccc;
+   display:block;
+   text-indent:9999px;
 }
 .company_page_select_styled select {
    background: transparent;
@@ -551,3 +612,173 @@ margin-left:23px;
    -webkit-appearance: none;
    text-indent:5px;
    }
+.company_page_settings_select_users{
+float:left;
+margin:0px 5px 0px 0px;
+}
+.company_page_settings_select_rel{
+position:relative;
+float:right;
+right:115px;
+}
+.company_page_select_styled_open{
+position:absolute;
+border: 1px solid #ccc;
+width: 545px;
+margin:0px 0px 0px 10px;
+display:none;
+padding:5px 0px;
+background:#fff;
+}
+.company_page_select_styled_open ul li{
+list-style:none;
+}
+.company_page_select_styled_open ul li label{
+cursor:pointer;
+width:545px;
+display:block;
+padding:2px 0px 3px 0px;
+}
+.company_page_select_styled_open ul li label:hover{
+background:#ececec;
+}
+.company_page_select_styled_open ul li label input{
+margin:0px 18px 0px 5px;
+position:relative;
+top:2px;
+}
+.comapny_page_settings_choice_user li{
+display:inline;
+}
+.comapny_page_settings_choice_user li a{
+margin:0px 0px 0px 5px;
+color:#29b243;
+}
+span.settings_how_users_choice{
+margin:0px 5px;
+}
+  /*Тарифы*/
+ /*Отзывы*/
+.basic_content_message .content_nav_tabs li span{
+text-decoration:none;
+}
+.content_nav_tabs li{
+display:inline;
+}
+.basic_content_reviwes_table{
+width:100%;
+border:1px solid #cdeb87;
+margin:5px 0px 30px 0px;
+}
+.reviwes_table_title{
+padding:0px 0px 5px 5px;
+}
+.content_reviews_nav{
+float:left;
+margin:5px 0px 0px 0px;
+width:300px;
+}
+.content_reviews_nav_action{
+float:right;
+margin:5px 15px 0px 0px;
+}
+.content_reviews_nav_action li{
+display:inline;
+list-style:none;
+margin-left:10px;
+}
+.content_reviews_nav_action li span{
+color:#ff0000;
+text-decoration:underline;
+cursor:pointer;
+}
+.content_reviews_nav_action li span:hover{
+text-decoration:none;
+}
+.content_reviews_nav li span{
+text-decoration:underline;
+font-size:12px;
+color:#29b243;
+cursor:pointer;
+}
+.content_reviews_nav_first{
+text-decoration:none;
+}
+.content_reviews_row{
+padding:20px 15px 20px 0px;
+border-top:1px solid #b7b9bc;
+position:relative;
+}
+.content_reviews_row:hover .reviwes_delete{
+display:block;
+}
+a.reviwes_go{
+color:#29b243;
+}
+.content_reviews_row .alert_time{
+float:right;
+}
+.reviwes_no_read{
+font-weight:bold;
+}
+.reviwes_delete{
+font-weight:bold;
+display:none;
+background:#fff;
+z-index:10;
+width:12px;
+height:15px;
+padding-left:4px;
+position:absolute;
+right:10px;
+top:5px;
+cursor:pointer;
+border:1px solid #ff0000;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.reviews_row_col1{
+height:60px;
+overflow:hidden;
+float:left;
+margin:0px 0px 0px 15px;
+}
+.reviews_row_col2{
+float:left;
+height:40px;
+padding:10px;
+width:150px;
+line-height:18px;
+}
+.reviews_row_col3{
+float:left;
+height:100%;
+padding:0px 10px;
+width:390px;
+line-height:18px;
+}
+.reviews_row_col2 a{
+color:#29b243;
+}
+.reviwes_row_col_date{
+float:right;
+margin:15px 0px 0px 0px;
+}
+.content_reviews_row .green_red_button_left + label{
+        background: url("../img/message_radio_button.jpg") no-repeat left center;
+        cursor: pointer;
+        padding-left: 20px;
+        margin-left:5px;
+		font-size:12px;
+		display:block;
+		margin-top:25px;
+color:#fff;
+float:left;
+}
+.green_red_button_left:checked + label {
+        background: url("../img/message_radio_button_change.jpg") no-repeat left center;
+}
