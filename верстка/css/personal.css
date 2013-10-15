@@ -263,7 +263,7 @@ left:7px;
 	color:#808080;
 	margin:0px 0px 5px 0px;
 }
-.quick_news_bg{
+input.quick_news_bg{
 	position:relative;
 	background:#fff;
 	color:#70747a;
@@ -455,7 +455,7 @@ background:#def99e;
 }
 .sidebar_nav_height_fix{
 position:relative;
-height:331px;
+height:345px;
 }
 /*Настройки*/
 .content_setting{
@@ -518,7 +518,7 @@ list-style:none;
 margin:10px 0px 0px -15px;
 }
 .delete_page_margin{
-margin-bottom:45px;
+margin:45px 0px 0px 0px;
 }
 .delete_page{
 color:#70747a;
@@ -533,18 +533,18 @@ margin-top:10px;
 .setting_notice:first-child{
 margin-right:180px;
 }
-.content_setting .cont_tab2 form{
+.contant_tab_setting_private form{
 color:#70747a;
 }
-.content_setting .cont_tab2 form p:first-child{
+.contant_tab_setting_private form p:first-child{
 font-weight:bold;
 margin-top:15px;
 }
-.content_setting .cont_tab2 form p{
+.content_setting .contant_tab_setting_private form p{
 font-weight:bold;
 margin-top:30px;
 }
-.cont_tab2 .setting_general_radio li{
+.contant_tab_setting_private .setting_general_radio li{
 margin-bottom:-5px;
 }
 .content_setting_save{
@@ -592,23 +592,23 @@ border-radius: 2px; /* CSS3 */
 /* Для плохих IE */
 behavior: url(border-radius.htc); /* учим IE border-radius */
 }
-.content_setting .cont_tab3{
+.content_setting .edit_page_interests{
 color:#70747a;
 }
-.content_setting .cont_tab3 p{
+.content_setting .edit_page_interests p{
 font-weight:bold;
 color:#89b228;
 }
-.cont_tab3 .content_setting_save{
+.edit_page_interests .content_setting_save{
 margin-top:20px;
 }
-.content_setting .cont_tab3 p.edit_mail{
+.content_setting  p.edit_mail{
 font-weight:normal;
 color:#70747a;
 text-indent:15px;
 margin-top:5px;
 }
-.content_setting .cont_tab3 p.edit_mail a{
+.content_setting  p.edit_mail a{
 color:#29b243;
 }
 .title_edit_page{
@@ -639,7 +639,7 @@ width:260px;
 .setting_edit_page{
 padding-bottom:25px;
 }
-.content_setting .cont_tab3 .setting_interests p{
+.content_setting .edit_page_interests .setting_interests p{
 color:#70747a;
 font-weight:normal;
 line-height:52px;
@@ -654,7 +654,7 @@ color:#29b243;
 }
 /*Корзина*/
 table{
-border:0px;к 
+border:0px;
 }
 table td {
 padding:0px; 
@@ -774,16 +774,19 @@ right:10px;
 	cursor:pointer;
 }
 /*Друзья*/
-.content_nav_tabs span{
+.basic_content_friends .content_nav_tabs li a{
 font-size:14px;
+}
+.content_nav_tabs li a{
+font-size:12px;
 color:#70747a;
 text-decoration:underline;
 cursor:pointer;
 }
-.content_nav_tabs span:hover{
+.content_nav_tabs a:hover{
 text-decoration:none;
 }
-.content_nav_tabs span.active{
+.ui-tabs-active.ui-state-active a{
 color:#29b243;
 text-decoration:none;
 }
@@ -1047,6 +1050,9 @@ border:1px solid #ff0000;
   behavior: url(border-radius.htc); /* учим IE border-radius */
 }
 /*Оценки*/
+.basic_content_evaluation .content_nav_tabs li a{
+font-size:14px;
+}
 .content_evaluation_row{
 padding:20px 0px 20px 20px;
 border-bottom:1px solid #e0e0e0;
@@ -1207,8 +1213,9 @@ border:1px solid #73a400;
   /* Для плохих IE */
   behavior: url(border-radius.htc); /* учим IE border-radius */
 }
-.basic_content_message .content_nav_tabs li span{
+.basic_content_message .content_nav_tabs li a{
 text-decoration:none;
+font-size:14px;
 }
 .basic_content_message_table{
 width:100%;
@@ -1323,7 +1330,7 @@ color:#fff;
 float:left;
 }
 .green_red_button_left:checked + label {
-        background: url("../img/message_radio_button_change.jpg") no-repeat left center;
+        background: url("../img/message_radio_button_change.png") no-repeat left center;
 }
 /*Открытое сообщение*/
 .message_open_title{

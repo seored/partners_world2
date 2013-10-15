@@ -3,17 +3,15 @@
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script type="text/javascript" src="script/script.js"></script>
+ <script src="script/jquery-ui-1.10.3.custom.min.js"></script>
  <link type="text/css" rel="stylesheet" href="css/style.css">
  <link type="text/css" rel="stylesheet" href="css/personal.css">
  <link rel="stylesheet" type="text/css" href="css/cusel.css" />
  <script type="text/javascript" src="script/cusel.js"></script>
 <script type="text/javascript" src="script/jScrollPane.js"></script>
-<script type="text/javascript">
-<!--
-
-	
+<script type="text/javascript">	
 jQuery(document).ready(function(){
 
 var params = {
@@ -24,8 +22,6 @@ var params = {
 	cuSel(params);
 	
 });
-
--->
 </script>
 </head>
  <body>
@@ -280,14 +276,14 @@ var params = {
 					</div>
 					<div class="clear"></div>
 				</div>
-		</div>
+			</div>
 		</div>
 		<div class="clear"></div>
 		<div class="basic_content">
-			<div class="basic_content_message content_tabs">
+			<div class="basic_content_message tabs">
 				<ul class="content_nav_tabs">
-					<li><span id="tab1" class="active">Полученные сообщения</span></li>
-					<li><span id="tab2">Отправленные сообщения</span></li>
+					<li><a href="#tabs-1">Полученные сообщения </a></li>
+					<li><a href="#tabs-2">Отправленные сообщения</a></li>
 				</ul>
 				<div class="basic_content_message_table">
 					<div class="message_table_title">

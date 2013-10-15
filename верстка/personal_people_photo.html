@@ -3,8 +3,9 @@
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script type="text/javascript" src="script/script.js"></script>
+ <script src="script/jquery-ui-1.10.3.custom.min.js"></script>
  <link type="text/css" rel="stylesheet" href="css/style.css">
  <link type="text/css" rel="stylesheet" href="css/personal.css">
 </head>
@@ -260,20 +261,18 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-		</div>
+			</div>
 		</div>
 		<div class="clear"></div>
-		<div class="basic_content">
-			<div class="content_photo content_tabs">
-				<div class="content_nav_tabs">
-					<ul class="content_nav_tabs">
-						<li><span id="tab1" class="active">Все фотографии</span></li>
-						<li><span id="tab2">Личные фотографии</span></li>
-						<li><span id="tab3">Фотоальбомы</span></li>
-						<li><span id="tab4">Вас заметили</span></li>
-					</ul>				
-				</div>
-				<div class="cont_tab1 active">
+		<div class="basic_content content_photo">
+			<div class="tabs">
+				<ul class="tabs content_nav_tabs">
+					<li><a href="#tabs-1">Все фотографии</a></li>
+					<li><a href="#tabs-2">Личные фотографии</a></li>
+					<li><a href="#tabs-3">Фотоальбомы</a></li>
+					<li><a href="#tabs-4">Вас заметили</a></li>
+				</ul>		
+				<div id="tabs-1">
 					<div class="add_new_photo">
 						<span>Добавить новые фотографии в фотоальбом</span>
 					</div>
@@ -320,10 +319,10 @@
 						<div class="clear"></div>
 					</div>
 				</div>
-				<div class="cont_tab2">
+				<div id="tabs-2">
 
 				</div>
-				<div class="cont_tab3">
+				<div id="tabs-3">
 					<div class="add_new_photo">
 						<span>Добавить новые фотографии</span>
 					</div>
@@ -371,7 +370,7 @@
 						<div class="clear"></div>
 					</div>
 				</div>
-				<div class="cont_tab4">
+				<div id="tabs-4">
 
 				</div>
 			</div>

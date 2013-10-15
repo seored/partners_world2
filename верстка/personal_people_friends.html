@@ -1,10 +1,11 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html>
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script type="text/javascript" src="script/script.js"></script>
+ <script src="script/jquery-ui-1.10.3.custom.min.js"></script>
  <link type="text/css" rel="stylesheet" href="css/style.css">
  <link type="text/css" rel="stylesheet" href="css/personal.css">
 </head>
@@ -260,23 +261,23 @@
 					</div>
 					<div class="clear"></div>
 				</div>
+			</div>
 		</div>
-	</div>
 		<div class="clear"></div>
 		<div class="basic_content">
-			<div class="basic_content_left">
-				<div class="content_friends content_tabs">
-					<ul class="content_nav_tabs">
-						<li><span id="tab1" class="active">Все друзья</span></li>
-						<li><span id="tab2">Друзья онлайн</span></li>
-						<li><span id="tab3">Заявки в друзья</span></li>
+			<div class="basic_content_left basic_content_friends">
+				<div class="tabs">
+					<ul class="tabs content_nav_tabs">
+						<li><a href="#tabs-1">Все друзья</a></li>
+						<li><a href="#tabs-2">Друзья онлайн</a></li>
+						<li><a href="#tabs-3">Заявки в друзья</a></li>
 					</ul>
 					<div class="content_friends_search">
 						<input type="text">
 						<a class="button_search_friends" href="#">Найти друзей</a>
 					</div>
 					<p class="basic_content_title">У вас <span class="how_elements_friends">6</span> друзей</p>
-					<div class="cont_tab1 active">
+					<div id="tabs-1">
 						<div class="content_friends_row">
 							<div class="friends_row_unit">
 								<img src="img/people_photo_mini2.jpg">
@@ -340,7 +341,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="cont_tab2">
+					<div id="tabs-2">
 						<div class="content_friends_row">
 							<div class="friends_row_unit">
 								<img src="img/people_photo_mini2.jpg">
@@ -373,7 +374,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="cont_tab3">
+					<div id="tabs-3">
 						<div class="content_friends_row">
 							<div class="friends_row_unit">
 								<img src="img/people_photo_mini2.jpg">

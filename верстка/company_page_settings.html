@@ -3,11 +3,12 @@
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
- <script type="text/javascript" src="script/script.js"></script>
- <link type="text/css" rel="stylesheet" href="css/style.css">
- <link type="text/css" rel="stylesheet" href="css/company_page.css">
- <link type="text/css" rel="stylesheet" href="css/personal.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<script src="script/jquery-ui-1.10.3.custom.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/company_page.css">
+	<link type="text/css" rel="stylesheet" href="css/personal.css">
 </head>
  <body>
 <div id="wrap">
@@ -62,8 +63,16 @@
 					<a class="page_photo_button_center" href="#">Загрузить фото</a>
 				</div>
 				<div class="company_page_nav_overflow">
-					<div class="company_page_nav content_tabs">
-						<div class="cont_tab1 active">
+					<div class="company_page_nav tabs">
+						<div class="company_page_nav_bottom">
+							<ul class="content_nav_tabs">
+								<li><a href="#tabs-1"></a></li>
+								<li><a href="#tabs-2"></a></li>
+								<li><a href="#tabs-3"></a></li>
+								<li><a href="#tabs-4"></a></li>
+							</ul>
+						</div>
+						<div id="tabs-1">
 							<div class="company_page_nav_unit">
 								<a href="company_page.html">
 									<div class="company_page_nav_unit_img nav_my_company">
@@ -101,7 +110,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<div class="cont_tab2">
+						<div id="tabs-2">
 							<div class="company_page_nav_unit">
 								<a href="company_page_catalog.html">
 									<div class="company_page_nav_unit_img nav_my_catalog">
@@ -139,7 +148,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<div class="cont_tab3">
+						<div id="tabs-3">
 							<div class="company_page_nav_unit">
 								<a href="company_page_franchise.html">
 									<div class="company_page_nav_unit_img nav_my_franshiza">
@@ -177,7 +186,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<div class="cont_tab4">
+						<div id="tabs-4">
 							<div class="company_page_nav_unit">
 								<a href="company_page_settings.html">
 									<div class="company_page_nav_unit_img nav_my_setting">
@@ -185,14 +194,6 @@
 									Настройки
 								</a>
 							</div>
-						</div>
-						<div class="company_page_nav_bottom">
-							<ul>
-								<li><span id="tab1" class="active"></span></li>
-								<li><span id="tab2"></span></li>
-								<li><span id="tab3"></span></li>
-								<li><span id="tab4"></span></li>
-							</ul>
 						</div>
 					</div>
 					<div class="company_page_info_title_left_bg">
@@ -261,19 +262,19 @@
 					Настройки
 				</p>
 				<div class="wrap_settings">
-					<div class="content_setting content_tabs">
+					<div class="content_setting tabs">
 						<div class="wrap_content_nav_tabs">
-							<ul class="wrap_content_nav_tabs">
-								<li><span id="tab1" class="active">Общие</span></li>
-								<li><span id="tab2">Приватность</span></li>
-								<li><span id="tab3">Уведомления</span></li>
-								<li><span id="tab4">Сотрудники</span></li>
-							</ul>				
+							<ul class="content_nav_tabs">
+								<li><a href="#tabs-1">Общие</a></li>
+								<li><a href="#tabs-2">Приватность</a></li>
+								<li><a href="#tabs-3">Уведомления</a></li>
+								<li><a href="#tabs-4">Сотрудники</a></li>
+							</ul>			
 						</div>
-						<div class="wrap_cont_tab1 active">
+						<div id="tabs-1">
 							<div class="content_setting_general content_setting_block">
 								<ul class="setting_general">
-									<li><a href="personal_people_setting_edit_page.html">Редактировать страницу</a></li>
+									<li><a href="company_page_settings_edit_page.html">Редактировать страницу</a></li>
 									<li><a href="#">Сменить номер телефона</a></li>
 									<li><a href="#">Адрес электронной почты</a></li>
 									<li><a href="#">Сменить пароль</a></li>
@@ -323,7 +324,7 @@
 								<a href="#" class="delete_page">Удалить страницу</a>
 							</div>
 						</div>
-						<div class="wrap_cont_tab2">
+						<div id="tabs-2" class="company_page_private">
 							<form>
 							<p>Кто видит мою страницу</p>
 							<ul class="setting_general_radio">
@@ -506,7 +507,7 @@
 							</div>
 							</form>
 						</div>
-						<div class="wrap_cont_tab3">
+						<div id="tabs-3" class="company_page_notice">
 							<div class="setting_notice">
 								<p>Оповещения на сайте</p>
 								<ul class="setting_general_radio">
@@ -597,7 +598,7 @@
 							<div class="clear">
 							</div>
 						</div>
-						<div class="wrap_cont_tab4">
+						<div id="tabs-4">
 							<form>
 								<p>Вы можете настроить ограничения индивидуально для каждого сотрудника</p>
 								<p class="company_page_settings_select_users">Выберите одного или несколько сотрудников</p>

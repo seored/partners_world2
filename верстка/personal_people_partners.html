@@ -3,8 +3,9 @@
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script type="text/javascript" src="script/script.js"></script>
+ <script src="script/jquery-ui-1.10.3.custom.min.js"></script>
  <link type="text/css" rel="stylesheet" href="css/style.css">
  <link type="text/css" rel="stylesheet" href="css/personal.css">
 </head>
@@ -264,18 +265,16 @@
 		</div>
 		<div class="clear"></div>
 		<div class="basic_content">
-			<div class="content_partners content_tabs">
-				<div class="content_nav_tabs">
-					<ul class="content_nav_tabs">
-						<li><span id="tab1" class="active">Мои магазины</span></li>
-						<li><span id="tab2">Магазины онлайн</span></li>
-					</ul>				
-				</div>
+			<div class="content_partners tabs">
+				<ul class="tabs content_nav_tabs">
+					<li><a href="#tabs-1">Мои магазины</a></li>
+					<li><a href="#tabs-2">Магазин онлайн</a></li>
+				</ul>			
 				<div class="content_partners_search">
 					<input type="text">
 					<a class="button_search_partners" href="#">Найти новые магазины</a>
 				</div>
-				<div class="cont_tab1 active">
+				<div id="tabs-1">
 					<p class="basic_content_title">У вас <span class="how_elements_partners"></span> магазинов</p>
 					<div class="content_partners_row">
 						<div class="partners_row_unit">
@@ -358,7 +357,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cont_tab2">
+				<div id="tabs-2">
 					<p class="basic_content_title">У вас <span class="how_elements_partners"></span> магазинов</p>
 					<div class="content_partners_row">
 						<div class="partners_row_unit">

@@ -103,28 +103,20 @@ text-align:center;
 .company_page_nav_bottom ul li{
 display:inline;
 }
-.company_page_nav_bottom ul li span{
+.company_page_nav_bottom ul li a{
 display:inline-block;
 text-indent:999px;
 padding:7px;
 background:url(../img/company_page_nav.png) no-repeat top;
 cursor:pointer;
 }
-.company_page_nav_bottom ul li span.active{
+.company_page_nav_bottom ul li.ui-tabs-active a{
 background:url(../img/company_page_nav.png) no-repeat bottom;
 }
-.cont_tab1{
-display:none;
-}
-.cont_tab2{
-display:none;
-}
-.cont_tab3{
-display:none;
-}
-.cont_tab4{
-display:none;
-text-align:center;
+.company_page_nav_bottom .content_nav_tabs li{
+display:inline;
+list-style:none;
+margin-left:0px;
 }
 .content_tabs div.active {
     display:block;
@@ -278,19 +270,19 @@ position:relative;
 border-top:4px solid #89b228;
 min-height:100px;
 }
-.content_setting  .wrap_cont_tab2 p{
+.content_setting  .company_page_private p{
 font-weight: bold;
 margin-top: 15px;
 }
-.content_setting  .wrap_cont_tab3 p{
+.content_setting  .company_page_notice p{
 font-weight: bold;
 margin-top: 15px;
 }
-.content_setting .wrap_cont_tab3 p {
+.content_setting .company_page_notice p {
 font-weight: bold;
 color: #89b228;
 }
-.content_setting .wrap_cont_tab3 p.edit_mail {
+.content_setting .company_page_notice p.edit_mail {
 font-weight: normal;
 color: #70747a;
 text-indent: 15px;
@@ -554,6 +546,11 @@ text-align:left;
 text-indent:10px;
 }
 /*Настройки*/
+.company_page_edit_title{
+font-weight:bold;
+text-indent:23px;
+color:#70747a;
+}
 .wrap_rate{
 padding:0px 15px;
 }
@@ -781,4 +778,24 @@ float:left;
 }
 .green_red_button_left:checked + label {
         background: url("../img/message_radio_button_change.jpg") no-repeat left center;
+}
+/*География*/
+.wrap_geographi{
+font-size:14px;
+}
+.wrap_geographi_box{
+padding:10px;
+background:#f9faf8;
+margin:10px 0px 0px 0px;
+}
+.wrap_geographi_box_name{
+color:#89b228;
+font-weight:bold;
+padding:0px 0px 5px 0px;
+}
+.wrap_geographi_box_country{
+margin:0px 0px 10px 0px;
+}
+.wrap_geographi_box_country a{
+color:#29b243;
 }

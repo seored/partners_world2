@@ -3,8 +3,9 @@
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script type="text/javascript" src="script/script.js"></script>
+ <script src="script/jquery-ui-1.10.3.custom.min.js"></script>
  <link type="text/css" rel="stylesheet" href="css/style.css">
  <link type="text/css" rel="stylesheet" href="css/personal.css">
 </head>
@@ -260,17 +261,17 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-		</div>
+			</div>
 		</div>
 		<div class="clear"></div>
-		<div class="basic_content">
-			<div class="basic_content_evaluation content_tabs">
-				<ul class="content_nav_tabs">
-					<li><span id="tab1" class="active">Оценки фото</span></li>
-					<li><span id="tab2">Оценки музыка</span></li>
-					<li><span id="tab3">Оценки видео</span></li>
+		<div class="basic_content basic_content_evaluation">
+			<div class="tabs">
+				<ul class="tabs content_nav_tabs">
+					<li><a href="#tabs-1">Оценки фото</a></li>
+					<li><a href="#tabs-2">Оценки музыки</a></li>
+					<li><a href="#tabs-3">Оценки видео</a></li>
 				</ul>
-				<div class="cont_tab1 active">
+				<div id="tabs-1">
 					<div class="content_evaluation_row">
 						<div class="content_evaluation_row_unit">
 							<a href="#">
@@ -347,6 +348,12 @@
 						<div class="clear">
 						</div>
 					</div>
+				</div>
+				<div id="tabs-2">
+				2
+				</div>
+				<div id="tabs-3">
+				3
 				</div>
 			</div>
 		</div>

@@ -1,12 +1,14 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html>
 <head>
  <title>Главная</title>
  <meta charset="utf-8">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
- <script type="text/javascript" src="script/script.js"></script>
- <link type="text/css" rel="stylesheet" href="css/style.css">
- <link type="text/css" rel="stylesheet" href="css/company_page.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<script src="script/jquery-ui-1.10.3.custom.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/company_page.css">
+	<link type="text/css" rel="stylesheet" href="css/personal.css">
 </head>
  <body>
 <div id="wrap">
@@ -61,8 +63,16 @@
 					<a class="page_photo_button_center" href="#">Загрузить фото</a>
 				</div>
 				<div class="company_page_nav_overflow">
-					<div class="company_page_nav content_tabs">
-						<div class="cont_tab1 active">
+					<div class="company_page_nav tabs">
+						<div class="company_page_nav_bottom">
+							<ul class="content_nav_tabs">
+								<li><a href="#tabs-1"></a></li>
+								<li><a href="#tabs-2"></a></li>
+								<li><a href="#tabs-3"></a></li>
+								<li><a href="#tabs-4"></a></li>
+							</ul>
+						</div>
+						<div id="tabs-1">
 							<div class="company_page_nav_unit">
 								<a href="company_page.html">
 									<div class="company_page_nav_unit_img nav_my_company">
@@ -100,7 +110,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<div class="cont_tab2">
+						<div id="tabs-2">
 							<div class="company_page_nav_unit">
 								<a href="company_page_catalog.html">
 									<div class="company_page_nav_unit_img nav_my_catalog">
@@ -138,7 +148,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<div class="cont_tab3">
+						<div id="tabs-3">
 							<div class="company_page_nav_unit">
 								<a href="company_page_franchise.html">
 									<div class="company_page_nav_unit_img nav_my_franshiza">
@@ -176,7 +186,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
-						<div class="cont_tab4">
+						<div id="tabs-4">
 							<div class="company_page_nav_unit">
 								<a href="company_page_settings.html">
 									<div class="company_page_nav_unit_img nav_my_setting">
@@ -184,14 +194,6 @@
 									Настройки
 								</a>
 							</div>
-						</div>
-						<div class="company_page_nav_bottom">
-							<ul>
-								<li><span id="tab1" class="active"></span></li>
-								<li><span id="tab2"></span></li>
-								<li><span id="tab3"></span></li>
-								<li><span id="tab4"></span></li>
-							</ul>
 						</div>
 					</div>
 					<div class="company_page_info_title_left_bg">
@@ -257,10 +259,63 @@
 			</div>
 			<div class="company_page_content_wrap">
 				<p class="wrap_title">
-					Тарифы
+					Настройки
 				</p>
-				<div class="wrap_rate">
-						
+				<div class="wrap_settings">
+					<p class="company_page_edit_title">Настройки редактиорвания страницы</p>
+					<div class="content_setting tabs">
+						<div class="wrap_content_nav_tabs">
+							<ul class="content_nav_tabs">
+								<li><a href="#tabs-1">Общие</a></li>
+								<li><a href="#tabs-2">Контакты</a></li>
+							</ul>			
+						</div>
+						<div id="tabs-1">
+							<div class="edit_page_general_left">
+								<p>Название компании:</p>
+								<p>Юридический адресс:</p>
+								<p>День основания:</p>
+								<p>Общая информация:</p>
+							</div>
+							<div class="edit_page_general_right">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<textarea>
+								</textarea>
+							</div>
+							<div class="clear">
+							</div>
+						</div>
+						<div id="tabs-2">
+							<div class="edit_page_general_left">
+								<p>Страна:</p>
+								<p>Город:</p>
+								<p>Адрес:</p>
+								<p>Мобильный телефон:</p>
+								<p>Рабочий телефон:</p>
+								<p>Факс:</p>
+								<p>Email:</p>
+								<p>ICQ:</p>
+								<p>Skype:</p>
+								<p>Веб-сайт:</p>
+							</div>
+							<div class="edit_page_general_right">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+								<input type="text">
+							</div>
+							<div class="clear">
+							</div>				
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
