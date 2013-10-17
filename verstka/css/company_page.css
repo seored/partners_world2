@@ -32,17 +32,43 @@ height:140px;
   /* Для плохих IE */
   behavior: url(border-radius.htc); /* учим IE border-radius */
 }
-.company_logo .page_photo_button_center{
-	color:#000;
-	text-decoration:none;
-	position:relative;
-	top:8px;
-	margin:0px auto;
-	padding:5px 0px 5px 0px;
-	width:188px;
-	display:block;
-	text-align:center;
-	background:url(../img/page_photo_add.png) no-repeat;
+.page_photo_button_center_overflow>a{
+    vertical-align:top;
+}
+.page_photo_button_center_overflow>a{
+border:1px solid #89b228;
+    -webkit-border-radius:10px;
+}
+.page_photo_button_center_overflow{
+overflow:hidden;
+width:188px;
+margin:5px auto 0px auto;
+-moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+-khtml-border-radius: 10px; /* KHTML */
+border-radius: 10px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */				
+}
+.page_photo_button_center{ 
+border:1px solid #89b228;
+color:#000;
+text-decoration:none;
+padding:5px 0px 5px 0px;
+width:186px;
+display:block;
+text-align:center;
+background:#e6f6bf;
+background: #eaf7ca; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZjdjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY1JSIgc3RvcC1jb2xvcj0iI2JmZTI2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MmI4MzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #eaf7ca 0%, #bfe26c 65%, #92b836 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaf7ca), color-stop(65%,#bfe26c), color-stop(100%,#92b836)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #eaf7ca 0%,#bfe26c 65%,#92b836 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #eaf7ca 0%,#bfe26c 65%,#92b836 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #eaf7ca 0%,#bfe26c 65%,#92b836 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #eaf7ca 0%,#bfe26c 65%,#92b836 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf7ca', endColorstr='#92b836',GradientType=0 ); /* IE6-8 */
 }
 .company_page_nav_overflow{
 overflow:hidden;
@@ -126,6 +152,7 @@ margin-left:0px;
 float:right;
 width:560px;
 overflow:hidden;
+padding:0px 0px 5px 0px;
 }
 .company_page_info_title{
 font-size:18px;
@@ -248,12 +275,14 @@ float:left;
 color:#70747a;
 text-decoration:none;
 margin:0px 0px 0px -5px;
+padding:0px 0px 5px 0px;
 }
 .news_lenta_action_right{
 float:right;
 color:#5bb023;
 text-decoration:none;
 margin:0px 15px 0px 0px;
+padding:0px 0px 5px 0px;
 }
 /*Основной блок*/
 .company_page_content_wrap_close{
