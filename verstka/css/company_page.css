@@ -37,7 +37,10 @@ height:140px;
 }
 .page_photo_button_center_overflow>a{
 border:1px solid #89b228;
-    -webkit-border-radius:10px;
+-moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+-khtml-border-radius: 10px; /* KHTML */
+border-radius: 10px; /* CSS3 */
 }
 .page_photo_button_center_overflow{
 overflow:hidden;
@@ -291,7 +294,7 @@ right:10px;
 top:5px;
 }
 .company_page_content{
-padding:0px 35px;
+padding:0px 35px 20px 35px;
 margin-top:5px 0px;
 position:relative;
 }
@@ -704,6 +707,9 @@ float:left;
 margin:5px 0px 0px 0px;
 width:300px;
 }
+.content_nav_tabs.content_reviews_nav li{
+margin:0px 0px 0px 5px;
+}
 .content_reviews_nav_action{
 float:right;
 margin:5px 15px 0px 0px;
@@ -795,13 +801,13 @@ float:right;
 margin:15px 0px 0px 0px;
 }
 .content_reviews_row .green_red_button_left + label{
-        background: url("../img/message_radio_button.jpg") no-repeat left center;
-        cursor: pointer;
-        padding-left: 20px;
-        margin-left:5px;
-		font-size:12px;
-		display:block;
-		margin-top:25px;
+background: url("../img/message_radio_button.jpg") no-repeat left center;
+cursor: pointer;
+padding-left: 20px;
+margin-left:5px;
+font-size:12px;
+display:block;
+margin-top:25px;
 color:#fff;
 float:left;
 }
@@ -813,18 +819,110 @@ float:left;
 font-size:14px;
 }
 .wrap_geographi_box{
+position:relative;
+overflow:hidden;
 padding:10px;
 background:#f9faf8;
 margin:10px 0px 0px 0px;
+border:1px solid transparent;
+}
+.wrap_geographi_box:hover{
+border:1px solid #d8d8d8;
+}
+.wrap_geographi_box:hover .wrap_geographi_box_action{
+display:block;
 }
 .wrap_geographi_box_name{
 color:#89b228;
 font-weight:bold;
 padding:0px 0px 5px 0px;
 }
-.wrap_geographi_box_country{
-margin:0px 0px 10px 0px;
-}
 .wrap_geographi_box_country a{
 color:#29b243;
+}
+.wrap_geographi_address{
+margin:10px 0px 0px 0px;
+}
+.wrap_geographi_box_action{
+display:none;
+position:absolute;
+right:10px;
+top:5px;
+}
+.wrap_geographi_box_action_edit{
+display:inline-block;
+width:15px;
+height:15px;
+text-indent:9999px;
+background:url(../img/wrap_geographi_box_action_edit.png) no-repeat;
+}
+.wrap_geographi_box_action_delete{
+display:inline-block;
+width:15px;
+height:15px;
+text-indent:9999px;
+background:url(../img/wrap_geographi_box_action_delete.png) no-repeat;
+margin:0px 0px 0px 5px;
+}
+.wrap_geographi_add_box{
+padding:0px 0px 20px 0xp;
+margin:15px 0px 0px 0px;
+}
+.wrap_geographi_add_button{
+background:#f9faf8;
+padding:5px 10px;
+color:#70747a;
+border:1px solid #d8d8d8;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari, Chrome */
+  -khtml-border-radius: 15px; /* KHTML */
+  border-radius: 15px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.new_agency_title{
+font-size:14px;
+color:#70747a;
+font-weight:bold;
+background:#ececec;
+padding:5px 10px;
+overflow:hidden;
+}
+.new_agency_title_action{
+text-indent:9999px;
+display:block;
+width:15px;
+height:13px;
+float:right;
+background:url(../img/wrap_geographi_box_action_delete.png) no-repeat;
+}
+.new_agency_row{
+padding:10px 0px 0px 0px;
+}
+.company_page_general_left{
+color:#808080;
+float:left;
+width:200px;
+text-align:right;
+padding:3px 10px 0px 0px;
+font-size:12px;
+}
+.company_page_general_right{
+line-height:25px;
+text-align:left;
+}
+.company_page_general_right input{
+display:block;
+width:738px;
+}
+.company_page_general_right select{
+display:block;
+width:266px;
+}
+.company_page_general_right textarea{
+height:45px;
+width:738px;
+}
+.submit_button_grey{
+background:#70747a;
 }

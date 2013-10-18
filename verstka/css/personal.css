@@ -222,7 +222,10 @@ p.data_username_detailed_information{
 }
 .page_photo_button_overflow>a{
 border:1px solid #89b228;
-    -webkit-border-radius:10px;
+-moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+-khtml-border-radius: 10px; /* KHTML */
+border-radius: 10px; /* CSS3 */
 }
 .page_photo_button_overflow{
 margin:5px 0px 0px 0px;
