@@ -296,3 +296,11 @@ $(function(){
 $(function(){
 	$(".comapny_page_settings_choice_user li a").slice(0, -1).after("<span>,</span>");
 });
+$(function(){
+	$(".wrap_geographi_add_button").on("click",function(){
+		$(".wrap_geographi_new_agency").show();
+	})
+	$(".new_agency_delete").on("click",function(){
+		$(".wrap_geographi_new_agency").hide();
+	})
+})

@@ -1,4 +1,16 @@
-﻿.company_page_info{
+﻿.company_page_content_wrap .content_nav_tabs{
+margin:0px 0px 0px 30px;
+}
+.company_page_content_wrap .content_alert_nav li{
+margin:10px 0px 0px 10px;
+}
+.company_page_content_wrap .content_alert_nav :first-child {
+margin-right: 0px;
+}
+.company_page_content_wrap .content_nav_tabs li{
+margin:0px 0px 0px 10px;
+}
+.company_page_info{
 padding:5px 35px;
 }
 .company_page_info_left{
@@ -533,7 +545,7 @@ opacity:1;
 /*Статистика*/
 .wrap_settings,
 .wrap_stat{
-padding:20px 0px 20px 15px;
+padding:0px 0px 20px 15px;
 }
 .wrap_stat_pay{
 float:left;
@@ -616,11 +628,6 @@ text-decoration:none;
 .wrap_content_nav_tabs span.active{
 color:#29b243;
 text-decoration:none;
-}
-.wrap_content_nav_tabs li{
-display:inline;
-list-style:none;
-margin-left:23px;
 }
 .company_page_select_styled{
    width: 545px;
@@ -869,6 +876,9 @@ padding:0px 0px 20px 0xp;
 margin:15px 0px 0px 0px;
 }
 .wrap_geographi_add_button{
+text-decoration:underline;
+cursor:pointer;
+z-index:-999;
 background:#f9faf8;
 padding:5px 10px;
 color:#70747a;
@@ -888,13 +898,21 @@ background:#ececec;
 padding:5px 10px;
 overflow:hidden;
 }
-.new_agency_title_action{
+.new_agency_delete{
+cursor:pointer;
 text-indent:9999px;
 display:block;
 width:15px;
 height:13px;
 float:right;
 background:url(../img/wrap_geographi_box_action_delete.png) no-repeat;
+}
+.wrap_geographi_new_agency{
+position:relative;
+display:none;
+z-index:999;
+margin:-25px 0px 0px 0px;
+background:#fff;
 }
 .new_agency_row{
 padding:10px 0px 0px 0px;
@@ -914,6 +932,7 @@ text-align:left;
 .company_page_general_right input{
 display:block;
 width:738px;
+font-size:12px;
 }
 .company_page_general_right select{
 display:block;
@@ -925,4 +944,50 @@ width:738px;
 }
 .submit_button_grey{
 background:#70747a;
+}
+.content_setting_save_grey{
+margin:10px auto 0px auto;
+padding:1px 0px 0px 1px;
+display:block;
+width:74px;
+height:22px;
+background:#70747a;
+text-align:center;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_setting_save_grey button{
+cursor:pointer;
+color:#fff;
+border:2px solid #c5c7c9;
+background:#70747a;
+font-size:12px;
+display:block;
+width:73px;
+height:21px;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_setting_save_grey button:hover{
+cursor:pointer;
+color:#fff;
+border:2px solid #c5c7c9;
+background:#9d9b9b;
+display:block;
+width:73px;
+height:21px;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
 }
