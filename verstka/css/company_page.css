@@ -1,5 +1,5 @@
 ﻿.company_page_content_wrap .content_nav_tabs{
-margin:0px 0px 0px 30px;
+margin:0px 0px 0px 20px;
 }
 .company_page_content_wrap .content_alert_nav li{
 margin:10px 0px 0px 10px;
@@ -990,4 +990,61 @@ height:21px;
 border-radius: 2px; /* CSS3 */
 /* Для плохих IE */
 behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.who_see_you_page{
+padding:15px 0px 0px 30px;;
+}
+.who_see_you_page>p{
+color:#89b228;
+}
+.who_see_you_page>p>span{
+color:#70747a;
+margin:0px 0px 0px 20px;
+}
+.who_see_you_page>p>span>span{
+margin:0px 0px 0px 5px;
+}
+.wrap_visitors_col{
+border:1px solid #add353;
+margin:15px 0px 0px 0px;
+width:464px;
+color:#70747a;
+}
+.wrap_visitors_col .left{
+float:left;
+}
+.wrap_visitors_col .right{
+float:right;
+}
+.wrap_visitors_col_title{
+border-bottom:1px solid #add353;
+text-align:center;
+padding:10px 0px;
+}
+.visitors_row_unit{
+float:left;
+width:110px;
+border:1px solid #fff;
+padding:10px 15px 5px 15px;
+text-align:center;
+margin:5px 6px 15px 6px; 
+}
+.visitors_row_unit img:hover{
+cursor:pointer;
+}
+.visitors_row_unit:hover{
+border:1px solid #add353;
+  -moz-border-radius: 3px; /* Firefox */
+  -webkit-border-radius: 3px; /* Safari, Chrome */
+  -khtml-border-radius: 3px; /* KHTML */
+  border-radius: 3px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.visitors_row_unit a{
+	font-size:14px;
+	color:#29b243;
+	display:block;
+	font-size:12px;
+	line-height:20px;
 }
