@@ -575,51 +575,6 @@ margin-top:30px;
 .contant_tab_setting_private .setting_general_radio li{
 margin-bottom:-5px;
 }
-.content_setting_save{
-margin:40px 0px 0px 15px;
-padding:1px 0px 0px 1px;
-display:block;
-width:74px;
-height:22px;
-background:#89b228;
-text-align:center;
--moz-border-radius: 2px; /* Firefox */
--webkit-border-radius: 2px; /* Safari, Chrome */
--khtml-border-radius: 2px; /* KHTML */
-border-radius: 2px; /* CSS3 */
-/* Для плохих IE */
-behavior: url(border-radius.htc); /* учим IE border-radius */
-}
-.content_setting_save button{
-cursor:pointer;
-color:#fff;
-border:2px solid #b8d07d;
-background:#89b228;
-display:block;
-width:73px;
-height:21px;
--moz-border-radius: 2px; /* Firefox */
--webkit-border-radius: 2px; /* Safari, Chrome */
--khtml-border-radius: 2px; /* KHTML */
-border-radius: 2px; /* CSS3 */
-/* Для плохих IE */
-behavior: url(border-radius.htc); /* учим IE border-radius */
-}
-.content_setting_save button:hover{
-cursor:pointer;
-color:#fff;
-border:2px solid #b8d07d;
-background:#9bc830;
-display:block;
-width:73px;
-height:21px;
--moz-border-radius: 2px; /* Firefox */
--webkit-border-radius: 2px; /* Safari, Chrome */
--khtml-border-radius: 2px; /* KHTML */
-border-radius: 2px; /* CSS3 */
-/* Для плохих IE */
-behavior: url(border-radius.htc); /* учим IE border-radius */
-}
 .content_setting .edit_page_interests{
 color:#70747a;
 }

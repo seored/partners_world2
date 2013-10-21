@@ -55,19 +55,29 @@ input[type="text"]{
 border:1px solid #d8d8d8;
 font-size:14px;
 height:20px;
+text-indent:10px;
 }
 input[type="password"]{
 border:1px solid #d8d8d8;
 font-size:14px;
 height:20px;
+text-indent:10px;
 }
 button{
 background:transparent;
+border: none;
+padding:0;
+margin:0;
 }
 button:active{
 position:relative;
 top:0px;
 left:0px;
+}
+button::-moz-focus-inner{
+border: none;
+padding:0;
+margin:0;
 }
 select{
 border:1px solid #d8d8d8;
@@ -604,6 +614,7 @@ border-top:2px solid #74b621;
 border-bottom:2px solid #74b621;
 overflow:hidden;
 position:relative;
+margin:0px 0px 10px 0px;
 }
 .showcase_scroll{
 width:40px;
@@ -957,4 +968,39 @@ background:url(../img/unit_comments.png) no-repeat center;
 }
 .nav_my_guests{
 background:url(../img/unit_guests.png) no-repeat center;
+}
+.content_green_border_button{
+cursor:pointer;
+padding:1px 1px 1px 1px;
+display:block-inline;
+height:23px;
+background:#89b228;
+text-align:center;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_green_border_button span{
+cursor:pointer;
+color:#fff;
+border:2px solid #b8d07d;
+background:#89b228;
+padding:0px 8px;
+display:block;
+height:17px;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_green_border_button:hover.content_green_border_button span {
+background:#9bc830;
+}
+.content_setting_save{
+margin:40px 0px 0px 15px;
 }
