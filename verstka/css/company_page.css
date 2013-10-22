@@ -376,6 +376,7 @@ color:#000;
 }
 /*Каталог товар*/
 .wrap_product_row{
+position:relative;
 margin:10px 0px 0px 0px;
 width:980px;
 }
@@ -594,9 +595,6 @@ text-indent:10px;
 font-weight:bold;
 text-indent:23px;
 color:#70747a;
-}
-.wrap_rate{
-padding:0px 15px;
 }
 .wrap_cont_tab1{
 display:none;
@@ -1052,7 +1050,8 @@ border:1px solid #add353;
 color:#70747a;
 }
 .wrap_rate_info{
-padding:5px 0px 0px 10px;
+padding:5px 0px 0px 25px;
+position:relative;
 }
 .wrap_rate_info p{
 line-height:22px;
@@ -1066,10 +1065,128 @@ font-size:12px;
 margin:0px 15px 0px 5px;
 }
 .choice_of_rate{
-margin:30px 0px 20px 10px;
+margin:30px 0px 20px 25px;
 }
 .choice_of_rate span{
 color:#89b228;
 font-weight:bold;
 margin:0px 5px 0px 0px;
+}
+.unit_add_rate{
+background:#f7fef1;
+cursor:pointer;
+text-align:center;
+}
+.wrap_rate_row_unit{
+width:220px;
+height:133px;
+border:1px solid #add353;
+float:left;
+margin:0px 8px 0px 0px;
+padding:10px 5px;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.unit_rate_price{
+font-size:40px;
+color:#add353;
+}
+.unit_rate_title{
+font-size:18px;
+text-align:center;
+padding:8px 0px 0px 0px;
+background: url(../img/rate_unit.png) no-repeat;
+width:194px;
+height:29px;
+margin:0px auto 0px auto;
+color:#89b228;
+}
+.unit_rate_how_elemnts{
+font-size:14px;
+font-weight:bold;
+color:#add353;
+line-height:20px;
+}
+.unit_rate_how_elemnts span{
+margin:0px 5px 0px 0px;
+}
+.wrap_rate_info_right_col{
+position:absolute;
+right:0px;
+top:0px;
+width:150px;
+text-align:left;
+} 
+.wrap_rate_info_right_col p{
+font-weight:bold;
+}
+.wrap_rate_info_right_col >p>span{
+color:#89b228;
+}
+.top_up{
+margin:25px 0px 0px 0px;
+}
+.wrap_rate_stat{
+display:block;
+color:#29b243;
+margin:10px 0px 0px 0px;
+}
+.wrap_rate_more_info{
+display:none;
+position:absolute;
+top:0px;
+right:28px;
+width:660px;
+height:143px;
+padding:5px 30px 5px 20px;
+overflow:hidden;
+border:1px solid #add353;
+background:#fff;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.more_info_left_col{
+float:left;
+}
+.more_info_left_col p{
+line-height:22px;
+}
+.more_info_left_col p>span{
+font-weight:bold;
+margin:0px 0px 0px 5px;
+}
+.go_to_rate{
+margin:25px 0px 0px 0px;
+}
+.more_info_right_col{
+float:right;
+padding:5px 10px;
+width:380px;
+height:130px;
+border:1px solid #add353;
+  -moz-border-radius: 7px; /* Firefox */
+  -webkit-border-radius: 7px; /* Safari, Chrome */
+  -khtml-border-radius: 7px; /* KHTML */
+  border-radius: 7px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.rate_more_info_close{
+position:absolute;
+top:5px;
+right:6px;
+display:block;
+cursor:pointer;
+width:18px;
+height:18px;
+background:url(../img/rate_more_info_close.png) no-repeat center;
+text-indent:9999px;
 }

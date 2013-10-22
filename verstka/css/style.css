@@ -199,6 +199,7 @@ margin:2px 2px;
   /* Для плохих IE */
   behavior: url(border-radius.htc); /* учим IE border-radius */
 }
+div#header_banner ul li {float:left; position:absolute; list-style: none;}
 /*Меню*/
 #nav{
 height:100%;
@@ -1003,4 +1004,36 @@ background:#9bc830;
 }
 .content_setting_save{
 margin:40px 0px 0px 15px;
+}
+.content_red_border_button{
+cursor:pointer;
+padding:1px 1px 1px 1px;
+display:block-inline;
+height:23px;
+background:#ca7173;
+text-align:center;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_red_border_button span{
+cursor:pointer;
+color:#fff;
+border:2px solid #dfa9aa;
+background:#ca7173;
+padding:0px 8px;
+display:block;
+height:17px;
+-moz-border-radius: 2px; /* Firefox */
+-webkit-border-radius: 2px; /* Safari, Chrome */
+-khtml-border-radius: 2px; /* KHTML */
+border-radius: 2px; /* CSS3 */
+/* Для плохих IE */
+behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_red_border_button:hover.content_red_border_button span {
+background:#dfa9aa;
 }
