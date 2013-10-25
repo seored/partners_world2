@@ -485,12 +485,22 @@ color:#29b243;
 width:165px;
 text-align:right;
 float:left;
+margin:0px 10px 0px 0px;
 }
 .company_page_content .friends_row_unit{
 margin:0px 19px;
 }
 .company_page_content .content_friends_row{
 width:980px;
+}
+.wrap_product_add_new input,select{
+font-size:12px;
+margin:4px 0px 4px 0px;
+width:175px;
+}
+.wrap_product_add_new p{
+line-height:22px;
+padding:4px 0px 4px 0px;
 }
 /*Сервисы*/
 .unit_add_service_title_top_bg{
@@ -630,7 +640,7 @@ text-decoration:none;
 .company_page_select_styled{
    width: 545px;
    height: 20px;
-   margin:10px 0px 0px 10px;
+   margin:3px 0px 0px 10px;
    overflow: hidden;
    background: url(../img/message_select_bg.png) no-repeat 530px;
    border: 1px solid #ccc;
@@ -691,6 +701,12 @@ color:#29b243;
 span.settings_how_users_choice{
 margin:0px 5px;
 }
+.content_setting #tabs-4 p{
+margin:7px 0px;
+}
+.comapny_page_settings_choice_user{
+padding:7px 0px;
+}
   /*Тарифы*/
  /*Отзывы*/
 .basic_content_message .content_nav_tabs li span{
@@ -704,8 +720,20 @@ width:100%;
 border:1px solid #cdeb87;
 margin:5px 0px 30px 0px;
 }
+.viewing_reviwes_close{
+float:right;
+color:#29b243;
+}
 .reviwes_table_title{
-padding:0px 0px 5px 5px;
+padding:5px;
+}
+.reviwes_table_title p{
+color:#89b228;
+float:left;
+}
+.reviwes_table_title p>a{
+margin:0px 0px 0px 5px;
+color:#29b243;
 }
 .content_reviews_nav{
 float:left;
@@ -818,6 +846,26 @@ float:left;
 }
 .green_red_button_left:checked + label {
         background: url("../img/message_radio_button_change.jpg") no-repeat left center;
+}
+.viewing_reviwes_body_left{
+float:left;
+margin:0px 30px 0px 0px;
+}
+.viewing_reviwes_body{
+border-top:1px solid #cdeb87;
+padding:10px;
+}
+.viewing_reviwes_action{
+padding:10px 0px 40px 0px;
+}
+.viewing_reviwes_action li{
+list-style:none;
+}
+.viewing_reviwes_action li a{
+color:#70747a;
+}
+.viewing_reviwes_date{
+color:#70747a;
 }
 /*География*/
 .wrap_geographi{

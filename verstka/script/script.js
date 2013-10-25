@@ -339,7 +339,7 @@ $(function(){
 		$(".wrap_geographi_new_agency").show();
 	})
 	$(".new_agency_delete").on("click",function(){
-		$(".wrap_geographi_new_agency").hide();
+		$(".wrap_geographi_new_agency").fadeOut();
 	})
 })
 /*Тарифы*/
