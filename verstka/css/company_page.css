@@ -502,6 +502,211 @@ width:175px;
 line-height:22px;
 padding:4px 0px 4px 0px;
 }
+.file_upload{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;              /* example */               /* example */
+    line-height: 22px   ;          /* the same as height */
+	margin:5px 0px 0px 0px;
+}
+.file_upload .button, .file_upload > mark{
+    display: block;
+    cursor: pointer              /* example */
+}
+.file_upload .button{
+    float: right;
+    width: 8em;                  /* example */
+    height: 100%;
+    text-align: center           /* example */
+}
+.file_upload > mark{
+    background: transparent;     /* example */
+    padding-left: 1em            /* example */
+}
+@media only screen and ( max-width: 500px ){  /* example */
+    .file_upload > mark{
+        display: none
+    }
+    .file_upload .button{
+        width: 100%
+    }
+}
+.file_upload input[type=file]{
+    position: absolute;
+    top: 0;
+    opacity: 0
+}
+
+/* Making it beautiful */
+
+.file_upload{
+	width:275px;
+	height:22px;
+    border: 1px solid #ccc;
+}
+.file_upload.focus{
+}
+.file_upload .button{
+    background: #ececec;
+    color: #70747a;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.file_upload:hover .button{
+    background: #c5c3c3;
+}
+.file_upload:active .button{
+    background: #c5c3c3;
+	position:relative;
+	top:0px;
+	right:0px;
+}
+.product_description_edit{
+margin:15px 0px 0px 0px;
+}
+.product_description_edit_title{
+font-size:14px;
+color:#70747a;
+text-indent:15px;
+}
+.product_description_edit_action{
+padding:5px 15px;
+min-height:30px;
+background:#d8d8d8;
+}
+.product_description_edit_body{
+padding:0px 10px 10px 10px;
+background:#d8d8d8;
+}
+.product_description_edit_body textarea{
+width:930px;
+max-width:930px;
+height:130px;
+max-height:130px;
+}
+/*Франшиза*/
+.wrap_franchise{
+position:relative;
+color:#70747a;
+font-size:14px;
+padding:10px 0px 0px 0px;
+}
+.franchise_left{
+width:180px;
+text-align:right;
+float:left;
+margin:0px 10px 0px 0px;
+}
+.wrap_franchise input[type="text"],select{
+font-size:12px;
+margin:4px 0px 4px 0px;
+width:220px;
+}
+.wrap_franchise p{
+line-height:22px;
+padding:4px 0px 4px 0px;
+}
+.wrap_franchise_left_col{
+width:415px;
+text-align:right;
+float:left;
+}
+.wrap_franchise .range input{
+width:110px;
+}
+.wrap_franchise .range span{
+color:#000;
+}
+.wrap_franchise_right_col{
+float:right;
+margin:3px 0px 0px 0px;
+width:500px;
+background:#f9faf8;
+border:1px solid #d8d8d8;
+padding:5px 10px 15px 10px;
+color:#000;
+}
+.wrap_franchise_right_col .title{
+font-weight:bold;
+}
+.wrap_franchise_right_col  .title span{
+color:red;
+font-weight:bold;
+}
+.wrap_franchise_right_col input[type="checkbox"]{
+position:relative;
+top:3px;
+left:5px;
+}
+.franchise_description_edit{
+margin:15px 0px 0px 0px;
+}
+.franchise_description_edit_title{
+font-size:14px;
+color:#000;
+text-indent:15px;
+}
+.franchise_description_edit_title span{
+font-size:11px;
+color:#70747a;
+}
+.franchise_description_edit_action{
+padding:5px 15px;
+min-height:30px;
+background:#d8d8d8;
+}
+.franchise_description_edit_body{
+padding:0px 10px 10px 10px;
+background:#d8d8d8;
+}
+.franchise_description_edit_body textarea{
+width:930px;
+max-width:930px;
+height:130px;
+max-height:130px;
+}
+.wrap_franchise_action{
+border-top:1px solid #a1c153;
+margin:20px 0px 0px 0px;
+padding:10px 0px 0px 0px;
+}
+.wrap_franchise_action label{
+margin:0px 0px 0px 15px;
+}
+.wrap_franchise_action label input{
+margin:0px 0px 0px 5px;
+position:relative;
+top:2px;
+}
+.wrap_franchise_action .qualification{
+margin:0px 0px 0px 15px;
+font-size:11px;
+}
+.wrap_franchise.info {
+padding:0px 15px;
+color:#000;
+line-height:22px;
+}
+.wrap_franchise .info p{
+margin:0px 0px 15px 0px;
+color:#000;
+}
+.wrap_franchise  ul{
+margin:0px 20px;
+}
+.wrap_franchise.info p.wrap_franchise_title_green{
+color:#89b228;
+}
+.wrap_franchise.info p.wrap_franchise_title_grey{
+color:#70747a;
+}
+.wrap_franchise_edit{
+position:absolute;
+top:5px;
+right:15px;
+}
 /*Сервисы*/
 .unit_add_service_title_top_bg{
 display:block;

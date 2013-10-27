@@ -102,6 +102,9 @@ border:1px solid #d8d8d8;
 .green_red_button:checked + label {
         background: url("../img/have_cabinet.png") no-repeat right bottom;
 }
+.bright_green_link{
+color:#29b243;
+}
 #main{
 width:1020px;
 height:100%;
