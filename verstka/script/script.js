@@ -387,3 +387,14 @@ $(function(){
 $( window ).resize(function(){
     $( ".file_upload input" ).triggerHandler( "change" );
 });
+$(function(){
+	var how_wrap_services_add_galery_elements = $(".wrap_services_add_galery span").length;
+	if (how_wrap_services_add_galery_elements>4){
+		$(".wrap_services_add_galery_overflow .left_nav").on("click",function(){
+			$(".wrap_services_add_galery").animate({'left':'-=150px'},1000);
+		})
+		$(".wrap_services_add_galery_overflow .right_nav").on("click",function(){
+			$(".wrap_services_add_galery").animate({'left':'+=150px'},1000);
+		})
+	}
+})

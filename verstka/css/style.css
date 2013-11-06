@@ -105,6 +105,9 @@ border:1px solid #d8d8d8;
 .bright_green_link{
 color:#29b243;
 }
+.bright_grey_link{
+color:#70747a;
+}
 #main{
 width:1020px;
 height:100%;
@@ -257,7 +260,7 @@ border:none;
 }
 /*Форма поиска*/
 #search{
-height:27px;
+height:25px;
 width:920px;
 background:#656c73;
 margin:5px auto;
@@ -271,12 +274,13 @@ padding:8px 15px;
   position:relative;
 }
 input.search_text{
-height:25px;
+height:23px;
 width:340px;
 position:relative;
 top:0px;
 float:left;
 font-size:14px;
+margin:0px 4px 0px 0px;
 }
 #search select{
 height:25px;
