@@ -280,11 +280,11 @@ position:relative;
 top:0px;
 float:left;
 font-size:14px;
-margin:0px 4px 0px 0px;
+margin:0px 5px 0px 0px;
 }
 #search select{
 height:25px;
-margin-left:7px;
+margin-left:5px;
 position:relative;
 top:0px;
 }
@@ -306,7 +306,8 @@ font-size:18px;
 background:#8ab229;
 margin-left:5px;
 cursor:pointer;
-padding:3px 10px 0px 10px;
+padding:0px 10px 0px 10px;
+height:25px;
 position:relative;
 top:0px;
 float:right;
