@@ -6,6 +6,13 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="script/script.js"></script>
 	<script src="script/jquery-ui-1.10.3.custom.min.js"></script>
+	<script>
+	$(function() {
+		$( "#accordion" ).accordion({
+		collapsible: true
+		});	
+	}
+	</script>
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/company_page.css">
 	<link type="text/css" rel="stylesheet" href="css/personal.css">
@@ -276,16 +283,63 @@
 								<span class="creat_heading_label">Название рубрики</span>
 								<input type="text">
 							</div>
-							<span class="file_upload_span_left">Фоновая картинка</span>
+							<div class="creat_heading_main_block_row">
+								<span class="file_upload_span_left">Фоновая картинка</span>
 								<label class="file_upload">
 									<span class="button">Выбрать</span>
 									<mark>Файл не выбран</mark>
 									<mark>Файл не выбран</mark>
 									<input type="file">
 								</label>
+							</div>
+						</div>
+						<div class="creat_heading_add_more_photo">
+							<p class="add_more_photo_info">
+							Вы можете загрузить дополнительные фотографии,
+							которые будут отображены на странице рубрики.
+							</p>
+							<div class="creat_heading_main_block_row">
+								<span class="file_upload_span_left">Дополнительные фото</span>
+								<label class="file_upload">
+									<span class="button">Выбрать</span>
+									<mark>Файл не выбран</mark>
+									<mark>Файл не выбран</mark>
+									<input type="file">
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="creat_heading_right_col">
+						<p>Дополнительные фотографии</p>
+						<div class="wrap_more_photo">
+							<div id="accordion">
+							  <h3>Название фото 1<a href="#" class="close_more_photo_box">x</a></h3>
+							  <div>
+								<img src="img/page_info_img.png" alt="фото">
+							  </div>
+							  <h3>Название фото 2<a href="#" class="close_more_photo_box">x</a></h3>
+							  <div>
+								<img src="img/page_info_img.png" alt="фото">
+							  </div>
+							  <h3>Название фото 3<a href="#" class="close_more_photo_box">x</a></h3>
+							  <div>
+								<img src="img/page_info_img.png" alt="фото">
+							  </div>
+							</div>
 						</div>
 					</div>
 					<div class="clear"></div>
+					<div class="creat_heading_main_content">
+						<p class="creat_heading_main_content_title">
+							Основная информация
+						</p>
+						<div class="heading_description_edit_body">
+							<textarea></textarea>
+						</div>	
+						<button type="submit">
+							Сохранить
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
