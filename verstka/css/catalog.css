@@ -407,18 +407,21 @@ width:740px;
 }
 .content_catalog_pagination_row_unit{
 position:relative;
-float:left;
+display:inline-block;
 width:140px;
 height:280px;
 border:1px solid #70747a;
 padding:10px;
-margin:0px 22px 15px 0px;
+margin: 0px 20px 15px 0px;
 	-moz-border-radius: 7px; /* Firefox */
 	-webkit-border-radius: 7px; /* Safari, Chrome */
 	-khtml-border-radius: 7px; /* KHTML */
 	border-radius: 7px; /* CSS3 */
 	/* Для плохих IE */
 	behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.content_catalog_pagination_row_unit:nth-child(4n){
+margin: 0px 0px 15px 0px;
 }
 .content_catalog_pagination_row_unit:hover{
 border:1px solid #89b228;

@@ -375,17 +375,12 @@ text-decoration:none;
 color:#000;
 }
 /*Каталог товар*/
-.wrap_product_row{
-position:relative;
-margin:10px 0px 0px 0px;
-width:980px;
-}
 .wrap_product_row_unit{
 width:220px;
 height:133px;
 border:1px solid #d9d9d9;
-float:left;
-margin:0px 8px 0px 0px;
+display:inline-block;
+margin:10px 4px 0px 0px;
 padding:10px 5px;
   -moz-border-radius: 7px; /* Firefox */
   -webkit-border-radius: 7px; /* Safari, Chrome */
@@ -393,6 +388,9 @@ padding:10px 5px;
   border-radius: 7px; /* CSS3 */
   /* Для плохих IE */
   behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.wrap_product_row_unit:nth-child(4n){
+margin:0px 0px 0px 0px;
 }
 .product_row_unit_left{
 float:left;
