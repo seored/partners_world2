@@ -375,6 +375,9 @@ text-decoration:none;
 color:#000;
 }
 /*Каталог товар*/
+.wrap_product{
+overflow:hidden;
+}
 .wrap_product_row_unit{
 width:220px;
 height:133px;
