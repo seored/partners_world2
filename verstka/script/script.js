@@ -342,6 +342,15 @@ $(function(){
 		$(".wrap_geographi_new_agency").fadeOut();
 	})
 })
+/*Новая новость, страница компании*/
+$(function(){
+	$(".company_page_news_add").on("click",function(){
+		$(".company_page_news_add_block").fadeIn();
+	})
+	$(".news_add_block_close").on("click",function(){
+		$(".company_page_news_add_block").fadeOut();
+	})
+})
 /*Тарифы*/
 $(function(){
 	$(".wrap_rate_row_unit").on("click",function(){
