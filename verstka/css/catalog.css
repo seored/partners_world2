@@ -465,3 +465,100 @@ position:absolute;
 bottom:45px;
 right:10px;
 }
+#two_col>div p{
+margin:0px;
+}
+.services_hotel__left_col{
+float:left;
+width:360px;
+border:1px solid #d8d8d8;
+margin:15px 26px 0px 0px;
+}
+.services_hotel__left_col_title{
+font-size:16px;
+color:#656c73;
+padding:5px 15px;
+border-bottom:1px solid #84898f;
+}
+.services_hotel__left_col_block{
+padding:20px 5px;
+border-bottom:1px solid #84898f;
+border-top:1px solid #fff;
+border-right:1px solid #fff;
+border-left:1px solid #fff;
+}
+.services_hotel__left_col_block:hover{
+border-bottom:1px solid #73b621;
+border-top:1px solid #73b621;
+border-right:1px solid #73b621;
+border-left:1px solid #73b621;
+}
+.services_hotel__left_col_block:hover .hotel_info__town{
+color:#ff2020;
+}
+.left_col_block_photo{
+float:left;
+width:100px;
+margin:0px 15px 0px 0px;
+}
+.hotel_info__town{
+font-size:16px;
+color:#29b243;
+display:block;
+}
+.hotel_info__country{
+color:#656c73;
+margin-bottom:30px;
+display:block;
+}
+.hotel_info__how_elements{
+color:#656c73;
+margin:0px 5px 0px 0px;
+}
+.services_hotel__right_col{
+float:right;
+width:320px;
+border:1px solid #d8d8d8;
+margin:15px 0px 0px 0px;
+background:#f9faf8;
+}
+.services_hotel__right_col_title{
+font-size:16px;
+color:#656c73;
+padding:5px 15px;
+border-bottom:1px solid #53c067;
+}
+.services_hotel__right_col_block{
+padding:20px 5px 5px 5px;
+border-bottom:1px solid #53c067;
+}
+.right_col_block_hotel_info{
+width:220px;
+float:right;
+margin:0px 10px 0px 0px;
+}
+.right_col_block_photo{
+float:left;
+width:70px;
+margin:0px 10px 0px 0px;
+}
+.new_hotel_info__name{
+font-size:16px;
+color:#656c73;
+display:block;
+margin:0px 0px 5px 0px;
+}
+.new_hotel_info{
+color:#656c73;
+font-size:11px;
+padding:0px 0px 15px 0px;
+}
+.new_hotel_info_more{
+color:#656c73;
+margin:15px 0px 0px 0px;
+font-size:11px;
+}
+.new_hotel_info_more_price{
+font-size:12px;
+color:#29b243;
+}

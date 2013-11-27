@@ -40,6 +40,7 @@ $(document).ready(function() {
   $(document).ready(function(){
 	$(".active").next("li").addClass("nav_next");
 	$(".active").prev("li").addClass("nav_previous");
+	$(".nav_previous").css("border","none");
   });
 $(function(){
   $(".user_freelance_checked").change(function(){
