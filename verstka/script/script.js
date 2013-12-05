@@ -266,48 +266,7 @@ $(function(){
 		$(".message_open_translator").removeClass("translator_hide");
 	})
 })
- $(function(){
-    $('.company_page_nav_bottom li span').click(function() {
-        var click_id=$(this).attr('id');
-			if (click_id != $('.company_page_nav_bottom li span.active').attr('id') ) {
-            $('.company_page_nav_bottom li span').removeClass('active');
-            $(this).addClass('active');
-            $('.cont_tab1').removeClass('active').animate();
-            $('.cont_tab2').removeClass('active');
-            $('.cont_tab3').removeClass('active');
-            $('.cont_tab4').removeClass('active');
-            $('.cont_' + click_id).addClass('active');
-        }
-    });
-})
- $(function(){
-    $('.product_page_info_tabs li span').click(function() {
-        var click_id=$(this).attr('id');
-			if (click_id != $('.product_page_info_tabs li span.active').attr('id') ) {
-            $('.product_page_info_tabs li span').removeClass('active');
-            $(this).addClass('active');
-            $('.cont_tab1').removeClass('active').animate();
-            $('.cont_tab2').removeClass('active');
-            $('.cont_tab3').removeClass('active');
-            $('.cont_tab4').removeClass('active');
-            $('.cont_' + click_id).addClass('active');
-        }
-    });
-})
- $(function(){
-    $('.wrap_content_nav_tabs li span').click(function() {
-        var click_id=$(this).attr('id');
-			if (click_id != $('.wrap_content_nav_tabs li span.active').attr('id') ) {
-            $('.wrap_content_nav_tabs li span').removeClass('active');
-            $(this).addClass('active');
-            $('.wrap_cont_tab1').removeClass('active').animate();
-            $('.wrap_cont_tab2').removeClass('active');
-            $('.wrap_cont_tab3').removeClass('active');
-            $('.wrap_cont_tab4').removeClass('active');
-            $('.wrap_cont_' + click_id).addClass('active');
-        }
-    });
-})
+
 /*Отзывы*/
 $(function(){
 	$(".content_reviews_row").change(function(){
@@ -408,4 +367,3 @@ $(function(){
 		})
 	}
 })
-/*Услуги отеле*/

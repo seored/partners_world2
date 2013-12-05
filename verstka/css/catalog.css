@@ -377,7 +377,7 @@ margin:0px 0px 0px 5px;
 background:#8ab229;
 }
 /*Стили для постраничной навигации*/
-.pagination{
+.product_catalog .pagination{
 margin:15px 0px 25px 0px;
 }
 .pagination ul{
@@ -401,6 +401,7 @@ color:#70747a;
 }
 .pagination a.prevnext{
     font-weight: bold;
+	text-decoration:none;
 }
 .content_catalog_pagination_row{
 width:740px;
@@ -562,19 +563,12 @@ font-size:11px;
 font-size:12px;
 color:#29b243;
 }
-.service_hotel_country_wrap{
-padding:10px 0px 0px 0px;
-}
 .service_hotel_country_block{
 margin:0px 0px 10px 0px;
 border-bottom:1px solid #54c169;
 }
-.service_hotel_country_block_title{
-background:#7f848a;
-padding:2px 15px;
-font-size:16px;
-color:#fff;
-margin:10px 0px 0px 0px;
+.two_col_content_wrap{
+margin:15px 0px 0px 0px;
 }
 .country_block_title_town{
 color:#fff;
@@ -614,4 +608,49 @@ color:#29b243;
 }
 .country_block_info_hotel_period{
 font-size:11px;
+}
+.service_hotel_country_block_title{
+background:#7f848a;
+padding:2px 15px;
+font-size:16px;
+color:#fff;
+}
+.service_hotel_town_block_title{
+font-size:16px;
+color:#656c73;
+}
+.service_hotel_town_block_title>p{
+float:left;
+}
+.service_hotel_town_block_title>p>span{
+margin:0px 5px 0px 0px;
+}
+.service_hotel_town_block_title .pagination{
+float:right;
+}
+.service_hotel_town_wrap_sort{
+margin:15px 0px 0px 0px;
+padding:0px 15px;
+background:#7f848a;
+font-size:14px;
+color:#fff;
+height:30px;
+}
+.service_hotel_town_wrap_sort span{
+position:relative;
+top:7px;
+}
+.service_hotel_town_wrap_sort select{
+float:right;
+margin:0px 0px 0px 10px;
+height:30px;
+background:#7f848a;
+border:none;
+color:#fff;
+}
+.service_hotel_town_wrap_sort select:hover{
+background:#73b621;
+}
+.service_hotel_town_wrap_sort select option{
+background:#7f848a;
 }

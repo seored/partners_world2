@@ -74,7 +74,7 @@
             showPagination = function(numPages) {
                 var pagins = '';
                 for (var i = 1; i <= numPages; i++) {
-                    pagins += '<li><a href="#" onclick="showPage(' + i + '); return false;">' + i + '</a></li>';
+                    pagins += '<li><a href="#" class="test'+ i +'" onclick="showPage(' + i + '); return false;">' + i + '</a></li>';
                 }
                 $('.pagination li:first-child').after(pagins);
             };
